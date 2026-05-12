@@ -1,4 +1,4 @@
-# Pharmacogenetics 
+# Pharmacogenetics #
 ## Theory: Study the Central Dogma, PK/PD, and molecular structure of CYP enzymes. ##
 เรื่อง Central Dogma, PK/PD และ CYP enzymes เป็นพื้นฐานสำคัญที่เชื่อมโยงระหว่างชีววิทยาโมเลกุลเข้ากับการตอบสนองต่อยาในร่างกาย
 ## Central Dogma คืออะไร ##
@@ -10,45 +10,42 @@ Central Dogma เป็นแนวคิดที่อธิบายการ
 ### ขั้นตอนที่ 1: Transcription  การถอดรหัสจาก DNA ไปสู่ mRNA ###
 เกิดขึ้นที่นิวเคลียสของ Hepatocyte (เซลล์ตับ) ซึ่งเป็นอวัยวะหลักในการแสดงออกของยีน CYP450
 กระบวนการ มี 4 ขั้น:
- - **1.Initiation (การเริ่มต้น):**
+>
+1. **Initiation (การเริ่มต้น):**
 เอนไซม์ RNA Polymerase II (isoform ที่ใช้สำหรับยีนที่ encode protein) จับกับบริเวณ Promoter บน DNA ซึ่งอยู่ต้นน้ำ (upstream) ของยีน CYP Promoter ประกอบด้วยลำดับเฉพาะ เช่น TATA Box (ลำดับ 5’-TATAAA-3’) ซึ่งเป็นที่จับของ Transcription Factor IID (TFIID) และ General Transcription Factors (GTFs) ก่อนที่ RNA Polymerase II จะเข้าจับได้ ทำให้เกิด Transcription Initiation Complex
- - **2.Elongation (การยืดสาย):**
+>
+2. **Elongation (การยืดสาย):**
 RNA Polymerase II แยกเกลียว DNA (DNA Unwinding) และใช้ Template Strand (3’→5’) เป็นแม่แบบ สังเคราะห์สาย pre-mRNA ในทิศทาง 5’→3’ โดยการจับคู่เบสแบบ Complementary:
- - A บน DNA Template → U บน mRNA
- - T บน DNA Template → A บน mRNA
- - G บน DNA Template → C บน mRNA
- - C บน DNA Template → G บน mRNA
-สิ่งที่ได้คือ pre-mRNA ประกอบด้วย Exon (Expressed Sequence) และ Intron (Intervening Sequence)
- - **3.Termination (การสิ้นสุด):**
+A บน DNA Template → U บน mRNA
+T บน DNA Template → A บน mRNA
+G บน DNA Template → C บน mRNA
+C บน DNA Template → G บน mRNA
+ สิ่งที่ได้คือ pre-mRNA ประกอบด้วย Exon (Expressed Sequence) และ Intron (Intervening Sequence)
+>
+3. **Termination (การสิ้นสุด):**
 เมื่อ RNA Polymerase ถึง Termination Signal สาย pre-mRNA จะถูกปล่อยออกจาก DNA
- - **4.RNA Processing (การปรับแต่ง pre-mRNA):**
+>
+4. **RNA Processing (การปรับแต่ง pre-mRNA):**
 นี่คือขั้นตอนที่สำคัญที่สุดในการทำความเข้าใจผลของ CYP2D6*4
-มี 3กระบวนการหลัก:
- - a) 5’ Capping:
-ต่อ 7-methylguanosine (m7G) cap เข้ากับปลาย 5’ ของ pre-mRNA ทันทีที่เริ่มสังเคราะห์ มีหน้าที่สองอย่าง:
-    •    ป้องกัน pre-mRNA จากการถูกย่อยโดย 5’-exonuclease
-    •    ช่วยให้ Ribosome จดจำและจับ mRNA ในขั้นตอน Translation ได้
- - b) 3’ Polyadenylation:
-เพิ่ม Poly-A Tail (สาย adenosine ต่อๆ กัน ~200 ตัว) เข้าที่ปลาย 3’ ของ mRNA ช่วยเพิ่มอายุของ mRNA และช่วยในกระบวนการ export ออกจากนิวเคลียส
- - c) RNA Splicing (กระบวนการสำคัญที่สุดสำหรับ CYP2D6*4):
-บริเวณ Intron-Exon Boundary มีลำดับนิวคลีโอไทด์ที่ได้รับการอนุรักษ์ไว้สูงมาก กฎทั่วไปคือ Intron จะเริ่มต้นด้วย GT และสิ้นสุดด้วย AG (เรียกว่า GT-AG Rule) การกลายพันธุ์ที่ตำแหน่ง Splice Site เหล่านี้สามารถทำให้เกิด: Exon Skipping (ข้ามการรวม exon บางตัว), Intron Retention (รักษา intron ไว้ใน mRNA), หรือการสร้าง Cryptic Splice Site ใหม่ ผลที่ตามมาคือ mRNA ที่ผิดปกติ ซึ่งอาจทำให้ได้โปรตีนที่ truncated หรือถูก degraded 
+ มี 3กระบวนการหลัก:
+ >
+> 4.1) 5’ Capping: ต่อ 7-methylguanosine (m7G) cap เข้ากับปลาย 5’ ของ pre-mRNA ทันทีที่เริ่มสังเคราะห์ มีหน้าที่สองอย่าง:
+    • ป้องกัน pre-mRNA จากการถูกย่อยโดย 5’-exonuclease
+    • ช่วยให้ Ribosome จดจำและจับ mRNA ในขั้นตอน Translation ได้
+>
+> 4.2) 3’ Polyadenylation: เพิ่ม Poly-A Tail (สาย adenosine ต่อๆ กัน ~200 ตัว) เข้าที่ปลาย 3’ ของ mRNA ช่วยเพิ่มอายุของ mRNA และช่วยในกระบวนการ export ออกจากนิวเคลียส
+>
+> 4.3) RNA Splicing (กระบวนการสำคัญที่สุดสำหรับ CYP2D6*4): บริเวณ Intron-Exon Boundary มีลำดับนิวคลีโอไทด์ที่ได้รับการอนุรักษ์ไว้สูงมาก กฎทั่วไปคือ Intron จะเริ่มต้นด้วย GT และสิ้นสุดด้วย AG (เรียกว่า GT-AG Rule) การกลายพันธุ์ที่ตำแหน่ง Splice Site เหล่านี้สามารถทำให้เกิด: Exon Skipping (ข้ามการรวม exon บางตัว), Intron Retention (รักษา intron ไว้ใน mRNA), หรือการสร้าง Cryptic Splice Site ใหม่ ผลที่ตามมาคือ mRNA ที่ผิดปกติ ซึ่งอาจทำให้ได้โปรตีนที่ truncated หรือถูก degraded 
 ในสัตว์เลี้ยงลูกด้วยนม เมื่อมี Premature Termination Codon (stop codon ที่เกิดก่อนกำหนด) ที่อยู่ห่างจาก exon-exon junction มากกว่า ~50 นิวคลีโอไทด์ขึ้นไป เซลล์จะรับรู้ว่านี่คือ mRNA ที่ผิดปกติและกำจัดมันผ่านกระบวนการ Nonsense-Mediated Decay (NMD) ซึ่งทำให้ mRNA ที่ผิดปกติถูกทำลายก่อนที่จะถูกแปลรหัสเป็นโปรตีน 
 ผลสุดท้ายจาก RNA Processing ที่สมบูรณ์คือ Mature mRNA ที่มีเฉพาะ Exon ต่อกัน พร้อม 5’ Cap และ Poly-A Tail แล้วจึงออกจากนิวเคลียสผ่าน Nuclear Pore Complex ไปสู่ Cytoplasm
 ### ขั้นตอนที่ 2: Translation  การแปลรหัสจาก mRNA เป็น CYP450 Protein ###
 เกิดที่ Rough Endoplasmic Reticulum (RER) — เนื่องจาก CYP450 เป็น Membrane-bound Protein จึงถูกสังเคราะห์บน Ribosome ที่ฝังตัวอยู่บน RER
 กระบวนการมี 4 ขั้นตอน:
- - 1.Initiation:
-Ribosome (ประกอบด้วย Small subunit 40S และ Large subunit 60S ในยูคาริโอต) จับกับ 5’ Cap ของ mRNA และเคลื่อนที่ไปตามสาย mRNA ในทิศทาง 5’→3’ จนพบ Start Codon (AUG) ซึ่ง Methionine-tRNA (Met-tRNA) เข้าจับที่ P-site ของ Ribosome
- - 2.Elongation:
- - Aminoacyl-tRNA (tRNA ที่บรรจุกรดอะมิโน) เข้าจับที่ A-site โดยการจับคู่ anticodon บน tRNA กับ codon บน mRNA
- - Peptide Bond เกิดขึ้นระหว่างกรดอะมิโนที่ A-site และสายโพลีเปปไทด์ที่ P-site
- - Ribosome เคลื่อนที่ไปอีก 1 codon (Translocation) ทำให้ A-site ว่างรับ aminoacyl-tRNA ตัวใหม่
-ทุก Codon บน mRNA (triplet of nucleotides) จะ encode กรดอะมิโน 1 ตัว โดย Genetic Code ประกอบด้วย 64 codon (4³) ซึ่ง 61 codon encode กรดอะมิโน 20 ชนิด และอีก 3 codon เป็น Stop Codon
+1. Initiation: Ribosome (ประกอบด้วย Small subunit 40S และ Large subunit 60S ในยูคาริโอต) จับกับ 5’ Cap ของ mRNA และเคลื่อนที่ไปตามสาย mRNA ในทิศทาง 5’→3’ จนพบ Start Codon (AUG) ซึ่ง Methionine-tRNA (Met-tRNA) เข้าจับที่ P-site ของ Ribosome
+2. Elongation: Aminoacyl-tRNA (tRNA ที่บรรจุกรดอะมิโน) เข้าจับที่ A-site โดยการจับคู่ anticodon บน tRNA กับ codon บน mRNA จากนั้น peptide Bond เกิดขึ้นระหว่างกรดอะมิโนที่ A-site และสายโพลีเปปไทด์ที่ P-site และ Ribosome เคลื่อนที่ไปอีก 1 codon (Translocation) ทำให้ A-site ว่างรับ aminoacyl-tRNA ตัวใหม่ ทุก Codon บน mRNA (triplet of nucleotides) จะ encode กรดอะมิโน 1 ตัว โดย Genetic Code ประกอบด้วย 64 codon (4³) ซึ่ง 61 codon encode กรดอะมิโน 20 ชนิด และอีก 3 codon เป็น Stop Codon
 ความสำคัญต่อ CYP2D6*4: เมื่อ Frameshift เกิดขึ้นจากการ Splicing ผิดปกติ การอ่าน codon จะเปลี่ยนไปทั้งหมดตั้งแต่ตำแหน่งนั้น ทำให้กรดอะมิโนที่ถูก encode เปลี่ยนไปจากปกติ และในไม่ช้าจะพบ Stop Codon ก่อนกำหนด *
-3.Termination:
-เมื่อ Ribosome พบ Stop Codon (UAA, UAG, หรือ UGA) ซึ่งไม่มี tRNA ที่จับคู่ได้ Release Factor จะเข้าจับที่ A-site และกระตุ้นให้สายโพลีเปปไทด์ถูกปล่อยออก Ribosome แยกออกเป็น 40S และ 60S subunit
-4.Post-translational Modification:
-สายโพลีเปปไทด์ที่ได้ต้องผ่านการปรับแต่งเพิ่มเติมเพื่อให้ทำงานได้:
+3. Termination: เมื่อ Ribosome พบ Stop Codon (UAA, UAG, หรือ UGA) ซึ่งไม่มี tRNA ที่จับคู่ได้ Release Factor จะเข้าจับที่ A-site และกระตุ้นให้สายโพลีเปปไทด์ถูกปล่อยออก Ribosome แยกออกเป็น 40S และ 60S subunit
+4. Post-translational Modification: สายโพลีเปปไทด์ที่ได้ต้องผ่านการปรับแต่งเพิ่มเติมเพื่อให้ทำงานได้:
  - Protein Folding: โปรตีนพับตัวเป็นโครงสร้างสามมิติที่ถูกต้อง (ช่วยโดย Chaperone Proteins)
  - Heme Incorporation: โมเลกุล Heme (Iron-Protoporphyrin IX) ถูกสอดเข้าไปในโปรตีน CYP450 ที่ Active Site จุดนี้คือ Cofactor สำคัญที่ทำให้เกิด Catalysis
  - Membrane Anchoring: โปรตีนถูกฝังลงในเยื่อหุ้มของ Smooth Endoplasmic Reticulum ผ่าน N-terminal transmembrane domain
@@ -60,20 +57,12 @@ Pharmacokinetics คือการศึกษาเชิงปริมาณ
 ยาในกระแสเลือดถูกพาไปทั่วร่างกาย โดยมีปัจจัยสำคัญคือ Volume of Distribution (Vd) และ Protein Binding (เช่น การจับกับ Albumin หรือ Alpha-1-acid glycoprotein) ยาที่จับกับโปรตีนในพลาสมาจะไม่ออกฤทธิ์และไม่ถูก metabolize จนกว่าจะถูกปล่อยออกมา
  - **M — Metabolism (การเปลี่ยนแปลง)**
 การเผาผลาญยาเกิดขึ้นเป็นหลักในตับ และแบ่งเป็น 2 Phase:
-Phase I Metabolism:
- - CYP450 เร่งปฏิกิริยา Oxidation (Hydroxylation, N-dealkylation, O-dealkylation, S-oxidation ฯลฯ), Reduction, หรือ Hydrolysis
- - วัตถุประสงค์คือเพิ่ม Polar Group ให้กับโมเลกุลยา เพื่อเตรียมสำหรับ Phase II
- - ผลิตภัณฑ์อาจมีฤทธิ์เพิ่มขึ้น ลดลง หรือเท่าเดิม (บางกรณีเป็นผลิตภัณฑ์ Toxic)
-Phase II Metabolism:
- - Conjugation ของ Polar Group กับโมเลกุลต่างๆ ได้แก่ Glucuronic Acid (Glucuronidation โดย UGT), Sulfate (Sulfation), Glutathione, Acetyl group เป็นต้น
- - ผลิตภัณฑ์ที่ได้มักมีขนาดโมเลกุลใหญ่, ละลายน้ำได้ดีขึ้นมาก, และ inactive
- -nพร้อมสำหรับการขับออกทางไตหรือน้ำดี
-CYP Isoforms หลักที่รับผิดชอบการเผาผลาญยา:
- - **E — Excretion (การขับออก)**
-Metabolite ที่ผ่าน Phase II แล้วถูกขับออกทาง:
+Phase I Metabolism: CYP450 เร่งปฏิกิริยา Oxidation (Hydroxylation, N-dealkylation, O-dealkylation, S-oxidation ฯลฯ), Reduction, หรือ Hydrolysis เพื่อเพิ่ม Polar Group ให้กับโมเลกุลยา เพื่อเตรียมสำหรับ Phase II ผลิตภัณฑ์อาจมีฤทธิ์เพิ่มขึ้น ลดลง หรือเท่าเดิม (บางกรณีเป็นผลิตภัณฑ์ Toxic)
+Phase II Metabolism: Conjugation ของ Polar Group กับโมเลกุลต่างๆ ได้แก่ Glucuronic Acid (Glucuronidation โดย UGT), Sulfate (Sulfation), Glutathione, Acetyl group ผลิตภัณฑ์ที่ได้มักมีขนาดโมเลกุลใหญ่, ละลายน้ำได้ดีขึ้นมาก, และ inactive พร้อมสำหรับการขับออกทางไตหรือน้ำดี CYP Isoforms มีหลักที่รับผิดชอบการเผาผลาญยา
+ - **E — Excretion (การขับออก)** Metabolite ที่ผ่าน Phase II แล้วถูกขับออกทาง:
 ไต (Renal Excretion): metabolite ที่มีน้ำหนักโมเลกุลต่ำและละลายน้ำได้ดี → ขับออกทางปัสสาวะ
 น้ำดี (Biliary Excretion): metabolite ที่มีน้ำหนักโมเลกุลสูง (>500 Da) → ขับออกทางน้ำดีและอุจจาระ (อาจเกิด Enterohepatic Circulation)
-พารามิเตอร์ทาง PK ที่สำคัญ:
+### พารามิเตอร์ทาง PK ที่สำคัญ: ###
  - Half-life (t₁/₂): เวลาที่ความเข้มข้นยาในเลือดลดลงครึ่งหนึ่ง (ผู้ที่มี CYP เร็วกว่าจะมี t₁/₂ สั้นกว่า)
  - Area Under Curve (AUC): ปริมาณยาที่ร่างกายได้รับโดยรวม (ผู้ที่ metabolize ช้า = AUC สูงกว่า)
  - Clearance (CL): ปริมาตรเลือดที่ถูก “ทำความสะอาด” จากยาต่อหน่วยเวลา
@@ -89,6 +78,7 @@ Pharmacodynamics คือการศึกษาผลทางชีววิ
 ยาเปิดหรือปิด Ion Channel เช่น Diazepam เพิ่มความถี่การเปิดของ Cl⁻ Channel บน GABA_A Receptor
 4. Transporter Inhibition:
 ยาขัดขวาง Transport Protein เช่น Clopidogrel (ในรูป Active Metabolite) จับแบบ Irreversible กับ P2Y₁₂ Receptor บน Platelet ขัดขวางการจับของ ADP ป้องกันการรวมตัวของ Platelet
+
 # **การวิเคราะห์พันธุกรรม🧬** 
 ## PharmVar (pharmvar.org)
 >คือ ฐานข้อมูลระดับนานาชาติที่รวบรวมตัวแปรทางพันธุกรรมของยีนที่เกี่ยวข้องกับการ metabolize ยา ใช้ระบบ Star Allele Nomenclature โดย *1 คือ allele ปกติที่ใช้เป็น reference ส่วน allele อื่นๆ
