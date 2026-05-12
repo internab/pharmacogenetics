@@ -1,4 +1,4 @@
-# **การวิเคราะห์พันธุกรรม** 
+# **การวิเคราะห์พันธุกรรม🧬** 
 ## PharmVar (pharmvar.org)
 >คือ ฐานข้อมูลระดับนานาชาติที่รวบรวมตัวแปรทางพันธุกรรมของยีนที่เกี่ยวข้องกับการ metabolize ยา ใช้ระบบ Star Allele Nomenclature โดย *1 คือ allele ปกติที่ใช้เป็น reference ส่วน allele อื่นๆ
 >จะถูกจัดระดับการทำงานเป็น Normal function, Decreased function, No function หรือ Increased function
