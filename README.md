@@ -128,6 +128,97 @@ Pharmacodynamics คือการศึกษาผลทางชีววิ
 | **8** | Active Drug | Warfarin  | ยาต้านการแข็งตัวของเลือด | CYP2C9  | ออกฤทธิ์ได้ทันที แต่ถูกกำจัดออกจากร่างกายผ่านเอนไซม์นี้เป็นหลัก  |
 | **9** | Active Drug | Amiodarone  | ยาต้านการเต้นของหัวใจที่ผิดจังหวะ | CYP3A4, CYP2C8 | ออกฤทธิ์ได้ทันที แต่อาศัยเอนไซม์เหล่านี้ในการสลาย  |
 | **10** | Active Drug |Phenytoin  | ยาต้านอาการชัก  |CYP2C9 (และ CYP2C19)  | ออกฤทธิ์ได้ทันที แต่อาศัยเอนไซม์เหล่านี้ในการสลาย |
+
+## เอกสารอ้างอิงทางคลินิก: CYP Enzymes
+### **CYP2D6**
+> โครโมโซม 22q13.2
+- อัลลีลที่พบบ่อย
+> *1 (ปกติ)
+> *2 (ปกติ)
+> *4 (ไม่ทำงาน)
+> *5 (delete)
+> *10 (ลด ~เอเชีย)
+> *17 (ลด ~แอฟริกา)
+> *1xN (เพิ่ม CN)
+- Activity Score
+> *1,*2 = 1.0  
+> *4,*5 = 0.0  |  *10,*17 = 0.25 | 
+> *1xN = 2.0+ (CN×1.0)
+- Substrates หลัก (≥5 ชนิด)
+> Codeine,
+Tramadol,
+Amitriptyline,
+Nortriptyline,
+Metoprolol,
+Tamoxifen,
+Risperidone,
+Fluoxetine*,
+Haloperidol,
+Venlafaxine,
+### **CYP2C19**
+> โครโมโซม 10q23.33
+- อัลลีลที่พบบ่อย
+> *1 (ปกติ)
+> *2 (ไม่ทำงาน)
+> *3 (ไม่ทำงาน ~เอเชีย)
+> *17 (เพิ่ม ~ผิวขาว)
+- Activity Score
+> *1 = 1.0  |  *2 = 0.5 | 
+> *3 = 0.0 | *17 = 1.5
+- Substrates หลัก (≥5 ชนิด)
+>Clopidogrel (prodrug),
+Omeprazole,
+Esomeprazole,
+Voriconazole,
+Escitalopram,
+Sertraline,
+Diazepam,
+Amitriptyline,
+Proguanil,
+> *Fluoxetine เป็นทั้ง substrate และ inhibitor ที่แรง
+### **CYP2C9**
+> โครโมโซม 10q23.33
+- อัลลีลที่พบบ่อย
+> *1 (ปกติ)
+> *2 (ลด ~ผิวขาว 8-13%)
+> *3 (ไม่ทำงาน ~ผิวขาว 6-10%)
+> *5,*8,*11 (ลด ~แอฟริกา)
+> *6 (ไม่ทำงาน)
+- Activity Score
+> *1 = 1.0  |  *2,*5,*8,*11 = 0.5 | 
+> *3,*6 = 0.0 | 
+- Substrates หลัก (≥5 ชนิด)
+> Warfarin (S-enantiomer),
+Phenytoin,
+NSAIDs (Celecoxib, Ibuprofen),
+Glipizide,
+Losartan,
+Fluvastatin,
+Tolbutamide,
+### **CYP3A4 / CYP3A5**
+> โครโมโซม 7q22.1
+- อัลลีลที่สำคัญ
+> *1 (แสดงออก)
+> *3 (ไม่แสดงออก ~ผิวขาว 85-90%)
+> *6,*7 (~แอฟริกา)
+- Tacrolimus & CYP3A5
+> *1/*1 หรือ *1/*3: Expressors → ต้องการ dose สูง (ถึง 2×)
+> *3/*3: Non-expressors → dose ต่ำ
+- Substrates หลัก (≥5 ชนิด)
+> Tacrolimus,
+Cyclosporine,
+Midazolam,
+Simvastatin,
+Atorvastatin,
+Amlodipine,
+Sildenafil,
+Alprazolam,
+Carbamazepine,
+Testosterone,
+Fentanyl,
+
+>> แหล่งอ้างอิง: PharmVar (pharmvar.org) | CPIC Guidelines (cpicpgx.org) | PharmGKB (pharmgkb.org) | DPWG (knmp.nl) 
+
 ## Diplotype and Activity Score⭐
 > คือ หัวใจสำคัญของวิชาเภสัชพันธุศาสตร์ (Pharmacogenomics) เพื่อใช้ทำนายว่าร่างกายของคนไข้จะจัดการกับยาอย่างไร
 นี่คือสรุปขั้นตอนการวิเคราะห์จากระดับยีนไปจนถึงการออกฤทธิ์ของยา:
@@ -151,12 +242,16 @@ Pharmacodynamics คือการศึกษาผลทางชีววิ
 3. การทำนายฟีโนไทป์ (Phenotype Determination)
 เมื่อได้คะแนนรวม (Total AS) แล้ว จะนำมาจัดกลุ่มคนไข้ (Phenotypes) เพื่อเลือกขนาดยา ดังนี้:
 
-| คะแนนรวม (Total AS) | กลุ่มฟีโนไทป์ (Phenotype) | ความหมาย |
-| :--- | :--- | :--- |
-| **AS > 2.25** | **Ultra-rapid Metabolizer (UM)** | เอนไซม์ทำงานเร็วมากผิดปกติ |
-| **AS = 1.25 ถึง 2.25** | **Normal Metabolizer (NM)** | เอนไซม์ทำงานปกติ (ค่ามาตรฐาน) |
-| **AS = 0.25 ถึง 1.0** | **Intermediate Metabolizer (IM)** | เอนไซม์ทำงานได้ปานกลาง/ค่อนข้างช้า |
-| **AS = 0** | **Poor Metabolizer (PM)** | เอนไซม์ไม่ทำงานเลย |\
+- **ตารางกำหนด Phenotype จาก Activity Score**
+
+
+| กลุ่มฟีโนไทป์ (Phenotype) | AS (2D6) | AS (2C19) | AS (2C9) | ความหมาย |
+| :--- | :--- | :--- | :--- | :--- |
+| **Poor (PM)** | = 0 | = 0 | = 0 | **เอนไซม์ไม่ทำงานเลย** |
+| **Intermediate Metabolizer (IM)** | >0 – 1.25 | 0.25–1.25* | 0.5–1.0* | **เอนไซม์ทำงานได้ปานกลาง/ค่อนข้างช้า** |
+| **Normal (NM)** | 1.25–2.25 | 1.25–1.75* | 1.5–2.0 | **เอนไซม์ทำงานปกติ (ค่ามาตรฐาน)** |
+| **Rapid (RM)** | N/A | 2.0–2.5* | N/A | **เอนไซม์ทำงานเร็ว** |
+| **Ultrarapid (UM)** | > 2.25 | ≥ 3.0* | N/A | **เอนไซม์ทำงานเร็วผิดปกติ** |
 
 - ทำไมเรื่องนี้ถึงสำคัญ?
 ลองนึกถึงยา Codeine (ยาแก้ปวดที่ต้องเปลี่ยนเป็น Morphine โดย CYP2D6):
@@ -164,3 +259,4 @@ Pharmacodynamics คือการศึกษาผลทางชีววิ
     - ถ้าคนไข้เป็น UM (AS > 2.25): ร่างกายจะเปลี่ยนยาเป็น Morphine เร็วและมากเกินไปจนอาจเกิดพิษ (กดการหายใจ) ได้แม้กินโดสปกติ
   
 - สรุป: การรู้ Diplotype ช่วยให้หมอเลือก "ยาที่ใช่ ในขนาดที่ถูกต้อง" (Right drug, Right dose)
+## PharmGKB Gene-Drug Pairs & ผลลัพธ์ทางคลินิก
