@@ -260,3 +260,152 @@ Fentanyl,
   
 - สรุป: การรู้ Diplotype ช่วยให้หมอเลือก "ยาที่ใช่ ในขนาดที่ถูกต้อง" (Right drug, Right dose)
 ## PharmGKB Gene-Drug Pairs & ผลลัพธ์ทางคลินิก
+- ### 💊 CYP2C9 + Warfarin
+
+### 📋 ข้อมูลภาพรวม (Overview)
+* **ยีน (Gene):** `CYP2C9` (`*2` / `*3`)
+* **ยา (Drug):** Warfarin
+* **ระดับหลักฐาน (PharmGKB Evidence Level):** Level 1A (ระดับสูงสุด)
+## 
+---
+
+### ⚠️ ความเสี่ยงและผลกระทบทางคลินิก (Clinical Risks)
+> **ความเสี่ยงเลือดออกรุนแรง:** > อัลลีล `CYP2C9*3` จะทำให้การขจัดยา (Clearance) ของ *S-Warfarin* **ลดลงประมาณ 90%** ส่งผลให้ระดับยาในกระแสเลือดสูงขึ้นอย่างมีนัยสำคัญ ทำให้ค่า **INR สูงเกินช่วงการรักษา (Therapeutic Range)** และเพิ่มความเสี่ยงต่อการเกิด **ภาวะเลือดออกรุนแรง** เช่น เลือดออกในทางเดินอาหาร (GI bleed) หรือ เลือดออกในสมอง (Intracranial Hemorrhage)
+
+---
+
+### 💡 คำแนะนำในการปรับขนาดยา (CPIC Guidelines)
+
+| ฟีโนไทป์ / แอลลีล | ผลกระทบต่อเอนไซม์ | คำแนะนำในการปรับขนาดรักษา (Maintenance Dose) | การติดตามอาการ |
+| :--- | :--- | :--- | :--- |
+| **CYP2C9\*2** | เอนไซม์ทำงานลดลงปานกลาง | **ลดขนาดยาลง 25 - 50%** | ติดตามค่า INR อย่างใกล้ชิดและบ่อยขึ้น |
+| **CYP2C9\*3** | เอนไซม์ทำงานลดลงอย่างมาก | **ลดขนาดยาลง 50 - 75%** | ติดตามค่า INR อย่างใกล้ชิดและบ่อยขึ้น |
+
+---
+
+### 📄 เอกสารอ้างอิง (References)
+* Johnson JA, et al. *Clinical Pharmacogenetics Implementation Consortium Guidelines for CYP2C9 and VKORC1 Genotypes and Warfarin Dosing.* **Clin Pharmacol Ther.** 2011.
+
+##
+
+- ### 🩸 CYP2C19 + Clopidogrel
+
+### 📋 ข้อมูลภาพรวม (Overview)
+* **ยีน (Gene):** `CYP2C19` (`*2` / `*3`)
+* **ยา (Drug):** Clopidogrel
+* **ระดับหลักฐาน (PharmGKB Evidence Level):** Level 1A (ระดับสูงสุด)
+
+---
+
+### ⚠️ ความเสี่ยงและผลกระทบทางคลินิก (Clinical Risks)
+> **การลดฤทธิ์ต้านเกล็ดเลือด (Reduced Antiplatelet Effect):** > ผู้ป่วยที่เป็นกลุ่ม **Poor Metabolizer (PM)** และ **Intermediate Metabolizer (IM)** จะไม่สามารถเปลี่ยนยา Clopidogrel ซึ่งอยู่ในรูป Prodrug ให้กลายเป็นสารออกฤทธิ์ (Active Metabolite) ได้อย่างมีประสิทธิภาพ ส่งผลให้การยับยั้งเกล็ดเลือด (Platelet Inhibition) ลดลงอย่างมีนัยสำคัญ และเพิ่มความเสี่ยงต่อการเกิด **MACE (Major Adverse Cardiovascular Events) สูงขึ้นถึง 53%** *(อ้างอิงจากการวิเคราะห์ย่อยยาสูตร PLATO sub-analysis)*
+
+---
+
+### 💡 คำแนะนำทางคลินิก (CPIC Guidelines)
+
+| ฟีโนไทป์ (Phenotype) | ผลกระทบทางคลินิก | คำแนะนำในการรักษา (Therapeutic Recommendation) |
+| :--- | :--- | :--- |
+| **Intermediate Metabolizer (IM)** | การสร้าง Active Metabolite ลดลง | พิจารณาปรับเปลี่ยนยา หรือเพิ่มการเฝ้าระวังอย่างใกล้ชิดตามดุลยพินิจแพทย์ |
+| **Poor Metabolizer (PM)** | การสร้าง Active Metabolite ลดลงอย่างรุนแรง | **แนะนำให้เปลี่ยนไปใช้ยา Prasugrel หรือ Ticagrelor แทน** *(หากไม่มีข้อห้ามใช้ หรือ Contraindication)* |
+
+---
+
+### 📄 เอกสารอ้างอิง (References)
+* Scott SA, et al. *Clinical Pharmacogenetics Implementation Consortium Guidelines for CYP2C19 Genotype and Clopidogrel Therapy.* **Clin Pharmacol Ther.** 2013.
+
+## 
+
+- ### 💊 CYP2D6 + Codeine
+
+### 📋 ข้อมูลภาพรวม (Overview)
+* **ยีน (Gene):** `CYP2D6` 
+  * กลุ่มย่อย: `*4` / `*5` (Poor Metabolizer: PM) | `*1xN` (Ultrarapid Metabolizer: UM)
+* **ยา (Drug):** Codeine
+* **ระดับหลักฐาน (PharmGKB Evidence Level):** Level 1A (ระดับสูงสุด)
+
+---
+
+### ⚠️ ความเสี่ยงและผลกระทบทางคลินิก (Clinical Risks)
+
+*   **กลุ่ม Poor Metabolizer (PM):** 
+    > ยา Codeine จะ**ไม่ถูกเปลี่ยน**เป็นสารออกฤทธิ์หลักคือ Morphine ส่งผลให้ผู้ป่วย**ไม่ได้รับผลในการระงับปวดเลย (Lack of Efficacy)**
+*   **กลุ่ม Ultrarapid Metabolizer (UM):** 
+    > ยา Codeine จะถูกเปลี่ยนเป็น Morphine ในปริมาณที่**สูงมากอย่างรวดเร็วและผิดปกติ** ส่งผลให้เกิดพิษจากโอปิออยด์ขั้นรุนแรง เกิดภาวะ**กดการหายใจ (Respiratory Depression)** หัวใจหยุดเต้น และมีรายงานการเสียชีวิตในผู้ป่วยเด็ก
+
+---
+
+### 💡 คำแนะนำทางคลินิก (CPIC Guidelines)
+
+| ฟีโนไทป์ (Phenotype) | ผลกระทบต่อระดับยา | คำแนะนำในการรักษา (Therapeutic Recommendation) |
+| :--- | :--- | :--- |
+| **Poor Metabolizer (PM)** | ไม่มี Morphine ในกระแสเลือด | **หลีกเลี่ยงการใช้ Codeine** และพิจารณาเปลี่ยนไปใช้ยากลุ่ม **Non-opioid analgesics** แทน |
+| **Ultrarapid Metabolizer (UM)** | ระดับ Morphine สูงจนเป็นอันตราย | **หลีกเลี่ยงการใช้ Codeine** และหากจำเป็นต้องใช้ยากลุ่มโอปิออยด์ ให้เลือกใช้ **Opioid ที่ไม่ได้ทำงานผ่านเอนไซม์ CYP2D6** |
+
+---
+
+### 📄 เอกสารอ้างอิง (References)
+* Crews KR, et al. *Clinical Pharmacogenetics Implementation Consortium Guidelines for CYP2D6 Genotype and Codeine Therapy: 2014 Update.* **Clin Pharmacol Ther.** 2014.
+
+## 
+
+- ###  🍄CYP2C19 + Voriconazole
+
+### 📋 ข้อมูลภาพรวม (Overview)
+* **ยีน (Gene):** `CYP2C19` 
+  * กลุ่มย่อย: `*2` / `*3` (Poor Metabolizer: PM) | (Ultrarapid Metabolizer: UM)
+* **ยา (Drug):** Voriconazole (ยาต้านเชื้อรา)
+* **ระดับหลักฐาน (PharmGKB Evidence Level):** Level 1A (ระดับสูงสุด)
+
+---
+
+### ⚠️ ความเสี่ยงและผลกระทบทางคลินิก (Clinical Risks)
+
+*   **กลุ่ม Poor Metabolizer (PM):** 
+    > **ความเสี่ยงต่อพิษจากยา (Toxicity Risk):** ผู้ป่วยกลุ่มนี้จะมีระดับยา Voriconazole ในกระแสเลือด**สูงขึ้นประมาณ 4 เท่า (4×)** ซึ่งเพิ่มความเสี่ยงต่อการเกิดพิษอย่างรุนแรง ได้แก่ อาการผิดปกติทางการมองเห็น (Visual Disturbances), พิษต่อตับ (Hepatotoxicity) และพิษต่อระบบประสาท (Neurotoxicity)
+*   **กลุ่ม Ultrarapid Metabolizer (UM):** 
+    > **ความเสี่ยงต่อความล้มเหลวในการรักษา:** เอนไซม์ที่ทำงานเร็วเกินไปจะทำให้ระดับยาในเลือด**ต่ำกว่าเกณฑ์มาตรฐาน** ส่งผลให้เกิดความล้มเหลวในการรักษา (Treatment Failure) โดยเฉพาะในการรักษาโรคติดเชื้อราแอสเปอร์จิลลัสชนิดลุกลาม (Invasive Aspergillosis) ซึ่งเป็นอันตรายถึงชีวิต
+
+---
+
+### 💡 คำแนะนำทางคลินิก (Clinical Guidelines)
+
+| ฟีโนไทป์ (Phenotype) | ผลกระทบต่อระดับยา | คำแนะนำในการรักษา (Therapeutic Recommendation) |
+| :--- | :--- | :--- |
+| **Poor Metabolizer (PM)** | ระดับยาสูงขึ้นอย่างรุนแรง (~4×) | **พิจารณาลดขนาดยา (Dose Reduction)** ลงอย่างเหมาะสม และติดตามระดับยาในเลือด (TDM) อย่างใกล้ชิด |
+| **Ultrarapid Metabolizer (UM)** | ระดับยาต่ำเกินไปจนไม่ได้ผล | **พิจารณาหลีกเลี่ยง Voriconazole** และเปลี่ยนไปใช้ยาต้านเชื้อรากลุ่มอื่นทดแทน เช่น **Isavuconazole** |
+
+---
+
+### 📄 เอกสารอ้างอิง (References)
+* Moriyama B, et al. *Clinical Pharmacogenetics Implementation Consortium Guidelines for CYP2C19 Genotype and Voriconazole Therapy.* **Clin Pharmacol Ther.** 2017.
+
+## 
+
+- ### 🫘  CYP3A5 + Tacrolimus
+
+### 📋 ข้อมูลภาพรวม (Overview)
+* **ยีน (Gene):** `CYP3A5` (`*1` Expresser / `*3` Non-expresser)
+* **ยา (Drug):** Tacrolimus (ยากดภูมิคุ้มกัน)
+* **ระดับหลักฐาน (PharmGKB Evidence Level):** Level 1A (ระดับสูงสุด)
+
+---
+
+### ⚠️ ความเสี่ยงและผลกระทบทางคลินิก (Clinical Risks)
+> **ความเสี่ยงต่อการปฏิเสธอวัยวะ (Risk of Allograft Rejection):** > ผู้ป่วยกลุ่ม **Expresser (ผู้ที่มีแอลลีล `*1`)** จะมีการแสดงออกของเอนไซม์อย่างเต็มที่ ส่งผลให้การขจัดยา Tacrolimus (Clearance) เกิดขึ้น**สูงและรวดเร็วมาก** ทำให้ระดับยาในกระแสเลือดต่ำกว่าเกณฑ์การรักษา (Sub-therapeutic Levels) ซึ่งเพิ่มความเสี่ยงอย่างรุนแรงต่อการเกิดภาวะร่างกายปฏิเสธอวัยวะที่ปลูกถ่าย (Allograft Rejection)
+
+📌 **หมายเหตุสำคัญ (Special Note):** ในกรณีของการผ่าตัด**ปลูกถ่ายตับ (Liver Transplantation)** ฟีโนไทป์ของยีนในตัวผู้บริจาคอวัยวะ (**Donor Genotype**) จะมีผลต่อการเผาผลาญและการทำลายยาในร่างกายของผู้ป่วยร่วมด้วย
+
+---
+
+### 💡 คำแนะนำทางคลินิก (CPIC Guidelines)
+
+| ฟีโนไทป์ (Phenotype) | ผลกระทบต่อระดับยา | คำแนะนำในการรักษา (Therapeutic Recommendation) |
+| :--- | :--- | :--- |
+| **CYP3A5 Expresser** <br> (มีแอลลีล `*1`) | ระดับยาต่ำกว่าเกณฑ์การรักษาอย่างรวดเร็ว | **แนะนำให้เริ่มยา (Starting Dose) สูงเป็น 1.5 - 2 เท่า** ของขนาดมาตรฐาน และต้องติดตามระดับยาในเลือดตอนระดับต่ำสุด (**Trough Level: C0**) อย่างใกล้ชิด |
+| **CYP3A5 Non-expresser** <br> (เช่น `*3/*3`) | การเผาผลาญยาปกติ/ช้า | เริ่มให้ยาในขนาดมาตรฐานตามปกติ (Standard Dosing) |
+
+---
+
+### 📄 เอกสารอ้างอิง (References)
+* Birdwell KA, et al. *Clinical Pharmacogenetics Implementation Consortium Guidelines for CYP3A5 Genotype and Tacrolimus Dosing.* **Clin Pharmacol Ther.** 2015.
