@@ -409,3 +409,9 @@ Fentanyl,
 
 ### 📄 เอกสารอ้างอิง (References)
 * Birdwell KA, et al. *Clinical Pharmacogenetics Implementation Consortium Guidelines for CYP3A5 Genotype and Tacrolimus Dosing.* **Clin Pharmacol Ther.** 2015.
+
+## Self-test on population frequencies for major variants.
+
+| Allele | Function | Frequency European | Frequency South Asian | Frequency East Asian | Frequency  Sub-Saharan African | 
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| CYP2D6*4 | No function | 18.48476 | 8.9567736 | 0.005269325 |0.028676093
