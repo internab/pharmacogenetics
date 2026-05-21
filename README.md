@@ -436,7 +436,7 @@ Fentanyl,
   
 ### 📄 อ้างอิง (References)
 
-https://www.clinpgx.org/
+อ้างอิงตัวเลขความถี่จาก CPIC Frequency Table ปีล่าสุด
 
 ##  how the Big 5 enzymes dominate specific therapeutic areas: Opioids (2D6), SSRIs (2C19/2D6), and PPIs (2C19).
 
