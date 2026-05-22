@@ -80,6 +80,7 @@ Pharmacodynamics คือการศึกษาผลทางชีววิ
 ยาขัดขวาง Transport Protein เช่น Clopidogrel (ในรูป Active Metabolite) จับแบบ Irreversible กับ P2Y₁₂ Receptor บน Platelet ขัดขวางการจับของ ADP ป้องกันการรวมตัวของ Platelet
 
 # **การวิเคราะห์พันธุกรรม🧬** 
+## Tools: Navigate PharmVar. Track exact nucleotide changes for CYP2D6*4 and CYP2C19*17.
 ## PharmVar (pharmvar.org)
 >คือ ฐานข้อมูลระดับนานาชาติที่รวบรวมตัวแปรทางพันธุกรรมของยีนที่เกี่ยวข้องกับการ metabolize ยา ใช้ระบบ Star Allele Nomenclature โดย *1 คือ allele ปกติที่ใช้เป็น reference ส่วน allele อื่นๆ
 >จะถูกจัดระดับการทำงานเป็น Normal function, Decreased function, No function หรือ Increased function
@@ -108,7 +109,9 @@ Pharmacodynamics คือการศึกษาผลทางชีววิ
 
 > หลักการสำคัญในการทำงาน
 ในทางสรีรวิทยา เลือดที่มีสารอาหารและยาจะไหลผ่าน Portal Vein เข้าสู่ตับ และกระจายตัวเข้าสู่เซลล์ตับ (Hepatocytes) ซึ่งภายในเซลล์จะมี Smooth Endoplasmic Reticulum เป็นที่อยู่ของเอนไซม์เหล่านี้ ยาจะถูกเปลี่ยนโครงสร้างให้มีความเป็นขั้ว (Polar) มากขึ้น ผ่านกระบวนการ Metabolism Phase I ทำให้ได้ Active metabolite หรือ Inactive metabolite เป็นสารที่ขับออกได้ง่ายขึ้น (มักไม่มีฤทธิ์แล้ว)
-       
+
+
+## Simulation: Map "Prodrug vs. Active Drug." Build lists for activation vs. clearance.       
 ## รายชื่อยา 10 ชนิดที่สำคัญ 💊
 > โดยแบ่งกลุ่มตามกลไกการออกฤทธิ์ระหว่าง ยาต้นแบบ (Prodrugs)  และ ยาที่ออกฤทธิ์ทันที (Active Drugs)
 - กลุ่มยาต้นแบบที่ต้องอาศัยการกระตุ้น (Prodrugs - Require CYP Activation)
@@ -129,6 +132,7 @@ Pharmacodynamics คือการศึกษาผลทางชีววิ
 | **9** | Active Drug | Amiodarone  | ยาต้านการเต้นของหัวใจที่ผิดจังหวะ | CYP3A4, CYP2C8 | ออกฤทธิ์ได้ทันที แต่อาศัยเอนไซม์เหล่านี้ในการสลาย  |
 | **10** | Active Drug |Phenytoin  | ยาต้านอาการชัก  |CYP2C9 (และ CYP2C19)  | ออกฤทธิ์ได้ทันที แต่อาศัยเอนไซม์เหล่านี้ในการสลาย |
 
+## Project: Draft CYP2D6 and CYP2C19 sections of the "Big 5" Cheat Sheet.
 ## เอกสารอ้างอิงทางคลินิก: CYP Enzymes
 ### **CYP2D6**
 > โครโมโซม 22q13.2
@@ -176,6 +180,7 @@ Diazepam,
 Amitriptyline,
 Proguanil,
 > *Fluoxetine เป็นทั้ง substrate และ inhibitor ที่แรง
+## Project: Draft CYP2C9 and CYP3A4/5 sections of the "Big 5" Cheat Sheet.
 ### **CYP2C9**
 > โครโมโซม 10q23.33
 - อัลลีลที่พบบ่อย
@@ -219,6 +224,9 @@ Fentanyl,
 
 >> แหล่งอ้างอิง: PharmVar (pharmvar.org) | CPIC Guidelines (cpicpgx.org) | PharmGKB (pharmgkb.org) | DPWG (knmp.nl) 
 
+## Defense: Blank page test. Draw metabolic pathways and the Big 5 enzymes from memory.
+
+## Theory: Deep dive into Star Allele nomenclature and translation to phenotypes.
 ## Diplotype and Activity Score⭐
 > คือ หัวใจสำคัญของวิชาเภสัชพันธุศาสตร์ (Pharmacogenomics) เพื่อใช้ทำนายว่าร่างกายของคนไข้จะจัดการกับยาอย่างไร
 นี่คือสรุปขั้นตอนการวิเคราะห์จากระดับยีนไปจนถึงการออกฤทธิ์ของยา:
@@ -259,6 +267,8 @@ Fentanyl,
     - ถ้าคนไข้เป็น UM (AS > 2.25): ร่างกายจะเปลี่ยนยาเป็น Morphine เร็วและมากเกินไปจนอาจเกิดพิษ (กดการหายใจ) ได้แม้กินโดสปกติ
   
 - สรุป: การรู้ Diplotype ช่วยให้หมอเลือก "ยาที่ใช่ ในขนาดที่ถูกต้อง" (Right drug, Right dose)
+
+## Tools: PharmGKB database exploration. Map specific alleles to clinical outcomes.
 ## PharmGKB Gene-Drug Pairs & ผลลัพธ์ทางคลินิก
 - ### 💊 CYP2C9 + Warfarin
 
@@ -410,6 +420,11 @@ Fentanyl,
 ### 📄 เอกสารอ้างอิง (References)
 * Birdwell KA, et al. *Clinical Pharmacogenetics Implementation Consortium Guidelines for CYP3A5 Genotype and Tacrolimus Dosing.* **Clin Pharmacol Ther.** 2015.
 
+## Simulation: Practice translating raw genetic sequences (e.g., *1/*4) into metabolic statuses.
+
+
+
+
 ## population frequencies for major variants.
 ## ความชุกของตัวแปรหลักในเชื้อชาติต่างๆ
 
@@ -438,54 +453,106 @@ Fentanyl,
 
 อ้างอิงตัวเลขความถี่จาก CPIC Frequency Table ปีล่าสุด
 
-##  how the Big 5 enzymes dominate specific therapeutic areas: Opioids (2D6), SSRIs (2C19/2D6), and PPIs (2C19).
+## Theory: Study specific drug classes impacted by the Big 5 (Opioids, SSRIs, PPIs).
 
-1. **ยาแก้ปวดกลุ่มโอปิออยด์ (Opioids) กับเอนไซม์ CYP2D6**
+1. กลุ่มยาแก้ปวดโอปิออยด์ (Opioids)
+การออกฤทธิ์ทางคลินิกของยาโอปิออยด์ขึ้นอยู่กับความสมดุลระหว่าง "การเปลี่ยนยาให้พร้อมออกฤทธิ์ (Prodrug Activation)" และ "การขับยาออกจากร่างกาย (Drug Clearance)"
 
-ยาแก้ปวดในกลุ่มนี้ส่วนใหญ่ถูกบริหารในรูปแบบ Prodrug (ยาต้นแบบ) ซึ่งต้องพึ่งพา CYP2D6 ในการเปลี่ยนให้เป็นรูปที่ออกฤทธิ์ระงับปวดได้รุนแรงขึ้น
+เอนไซม์หลักที่เกี่ยวข้อง: CYP2D6 (ทางหลักในการเปลี่ยนรูปยา), CYP3A4/5 (ทางหลักในการขับทำลายยา)
 
-- ยาสำคัญ: **Codeine และ Tramadol** (ทรามาดอล/ยาเขียวเหลือง)
+กลไกทางเภสัชวิทยา: ยาแก้ปวดจำพวก Codeine และ Tramadol จัดเป็นยาในรูปแบบยังไม่ออกฤทธิ์ (Prodrug) ตัวมันเองไม่มีฤทธิ์แก้ปวด แต่ต้องพึ่งพาเอนไซม์ CYP2D6 ในการตัดแต่งโมเลกุลให้กลายเป็นสารออกฤทธิ์เด่นที่จับกับตัวรับในสมองได้ดี ได้แก่ Morphine (จาก Codeine) และ O-desmethyltramadol (จาก Tramadol) ในขณะที่ CYP3A4 จะทำหน้าที่เปลี่ยนยาเหล่านี้ไปเป็นสารที่ไม่ออกฤทธิ์เพื่อขับทิ้ง
 
-- กลไกทางเภสัชพันธุศาสตร์:
+ผลกระทบแยกตามฟีโนไทป์:
 
-Codeine จะต้องถูก CYP2D6 ตัดแต่งโมเลกุลเปลี่ยนให้กลายเป็น Morphine (มอร์ฟีน) ซึ่งมีฤทธิ์แก้ปวดแรงกว่าตัวแม่ถึง 200 เท่า
+กลุ่ม Ultrarapid Metabolizer (UM): เอนไซม์ CYP2D6 ทำงานเร็วและแรงกว่าปกติมาก ส่งผลให้ยาเปลี่ยนสภาพเป็นมอร์ฟีนในปริมาณมหาศาลและเฉียบพลันในกระแสเลือด นำไปสู่ภาวะ "กดการหายใจขั้นรุนแรงจนถึงแก่ชีวิต (Fatal Respiratory Depression)"
 
-Tramadol จะต้องถูกเปลี่ยนเป็น O-desmethyltramadol (M1) ซึ่งจับกับตัวรับความเจ็บปวดได้แน่นกว่าเดิมมาก
+กลุ่ม Poor Metabolizer (PM): ร่างกายแทบไม่มีเอนไซม์ทำงาน ส่งผลให้ไม่เกิดการเปลี่ยนรูปยา คนไข้จะ "ไม่หายปวดเลย (Therapeutic Failure)" ซึ่งอันตรายมากเพราะคนไข้อาจตัดสินใจกินยาเพิ่มเองจนเกิดพิษจากตัวยาตั้งต้นสะสม
 
-- ผลกระทบตามฟีโนไทป์ (Phenotypes):
+ข้อบังคับความปลอดภัย (Safety Mandates): องค์การอาหารและยาแห่งสหรัฐอเมริกา (US FDA) บังคับใส่ Boxed Warning ห้ามใช้ยา Codeine และ Tramadol ในเด็กอายุต่ำกว่า 12 ปี, เด็กอายุต่ำกว่า 18 ปีหลังผ่าตัดต่อมทอนซิล/อดีนอยด์ และสตรีให้นมบุตร (เนื่องจากมอร์ฟีนที่เข้มข้นจะผ่านน้ำนมไปหยุดการหายใจของทารกได้)
 
-Poor Metabolizers (PM): คนไข้กลุ่มนี้ (พบในคนผิวขาวเยอะ) กินพาราเซตามอลผสมโคเดอีนไปเท่าไหร่ก็ "ไม่หายปวด" เพราะตับไม่มีเอนไซม์ไปเปลี่ยนยาให้เป็นมอร์ฟีน
+📚 แหล่งอ้างอิงมาตรฐาน: * FDA Drug Safety Communication (April 20, 2017): FDA restricts use of prescription codeine and tramadol medicines in children.
 
-Ultra-rapid Metabolizers (UM): คนไข้กลุ่มนี้เอนไซม์ทำงานไวเกินไป กินยาโดสปกติแต่ตับจะเปลี่ยนยาเป็นมอร์ฟีนในปริมาณมหาศาลทันที เสี่ยงต่อภาวะ มอร์ฟีนเกินขนาด (Morphine toxicity) กดการหายใจ และอาจเสียชีวิตได้ โดยเฉพาะในเด็กหรือทารกที่ได้รับยาผ่านน้ำนมแม่
+CPIC Guideline for CYP2D6 and Opioid Therapy (Crews et al., Clinical Pharmacology & Therapeutics).
 
-2. **ยาต้านเศร้ากลุ่ม SSRIs กับเอนไซม์ CYP2C19 และ CYP2D6**
+2. กลุ่มยาต้านเศร้ากลุ่ม SSRIs (Selective Serotonin Reuptake Inhibitors)
+ยารักษาโรคซึมเศร้าและวิตกกังวลกลุ่ม SSRIs เป็นหนึ่งในสาเหตุหลักที่จิตแพทย์มักต้องใช้วิธีสุ่มลองยา (Trial-and-Error) เนื่องจากพันธุกรรมของผู้ป่วยแต่ละคนสลายยาได้ไม่เท่ากัน
 
-ยาต้านเศร้ากลุ่ม SSRIs (Selective Serotonin Reuptake Inhibitors) เป็น Active Drugs (ออกฤทธิ์ทันที) ดังนั้น เอนไซม์ในตับจึงทำหน้าที่ "ทำลายยาทิ้ง (Clearance)" เพื่อไม่ให้ยาค้างในร่างกายนานเกินไป
+เอนไซม์หลักที่เกี่ยวข้อง: CYP2C19 (คุมยา Escitalopram, Citalopram, Sertraline), CYP2D6 (คุมยา Fluoxetine, Paroxetine)
 
-- ยาสำคัญ: Escitalopram, Citalopram, Sertraline (เน้นใช้ CYP2C19) และ Fluoxetine, Paroxetine (เน้นใช้ CYP2D6)
+กลไกทางเภสัชวิทยา: แตกต่างจากกลุ่มโอปิออยด์ ยา SSRIs ถูกจ่ายในรูปแบบ "ออกฤทธิ์ทันที (Active Drug)" ดังนั้น เอนไซม์กลุ่ม Big Five จึงทำหน้าที่ในทางตรงกันข้ามคือ "ทำลายและขับยาออกจากร่างกาย (Drug Inactivation & Clearance)"
 
-- กลไกทางเภสัชพันธุศาสตร์:
+ผลกระทบแยกตามฟีโนไทป์:
 
-ยาต้านเศร้าต้องการระดับยาในเลือดที่นิ่งและสมดุล (Therapeutic window) เพื่อปรับสารเคมีในสมองอย่างค่อยเป็นค่อยไป
+กลุ่ม Poor Metabolizer (PM): ขาดเอนไซม์ในการทำลายยา ส่งผลให้ปริมาณยาต้านเศร้าสะสมในกระแสเลือดพุ่งสูงขึ้นกว่าคนปกติถึง 3 เท่าตัว ก่อให้เกิดอาการข้างเคียงที่รุนแรงและเป็นอันตรายต่อชีวิต เช่น "คลื่นไฟฟ้าหัวใจผิดปกติ (QT Interval Prolongation)" ซึ่งนำไปสู่หัวใจเต้นผิดจังหวะเฉียบพลัน, อาการกลุ่มอาการเซโรโทนินล้น (Serotonin Syndrome) และผลข้างเคียงต่อระบบทางเดินอาหารจนคนไข้ทนยาไม่ได้
 
-- ผลกระทบตามฟีโนไทป์ (Phenotypes):
+กลุ่ม Ultrarapid Metabolizer (UM): เอนไซม์ทำลายยาต้านเศร้าทิ้งทันทีที่กลืนลงไป ระดับยาในเลือดและสมองต่ำกว่าเกณฑ์การรักษาตลอดเวลา ส่งผลให้ "การรักษาล้มเหลวอย่างสิ้นเชิง (Therapeutic Failure)" คนไข้อาจเกิดภาวะดิ่งหรือกลับมาคิดสั้นซ้ำ
 
-Poor Metabolizers (PM): หากคนไข้เป็น CYP2C19*2/*2 (พบบ่อยในคนไทย) แล้วกินยา Escitalopram ยาจะไม่ถูกทำลายและสะสมในร่างกายสูงมาก ส่งผลให้เกิดผลข้างเคียงรุนแรง เช่น คลื่นไส้รุนแรง นอนไม่หลับ ใจสั่น หรือเกิดภาวะ Serotonin Syndrome ที่เป็นอันตราย
+ข้อบังคับความปลอดภัย (Safety Mandates): US FDA ออกข้อบังคับจำกัดขนาดยาใช้งานสูงสุดของ Citalopram ไว้ห้ามเกิน 20 mg/day (จากโดสปกติ 40 mg) ในผู้ป่วยที่เป็นกลุ่ม CYP2C19 PM เพื่อป้องกันพิษต่อหัวใจ
 
-Ultra-rapid Metabolizers (UM): เอนไซม์ทำลายยาเร็วเกินไป กินยาไปเท่าไหร่ก็โดนตับสลายทิ้งหมด ระดับยาในเลือดต่ำ ทำให้การรักษาไม่ได้ผล คนไข้ยังคงมีอาการซึมเศร้าหรือมีความคิดฆ่าตัวตายอยู่ แพทย์จึงต้องเปลี่ยนไปใช้ยาที่ใช้เอนไซม์ตัวอื่นแทน
+📚 แหล่งอ้างอิงมาตรฐาน:
 
-3. **ยาลดกรดกลุ่ม PPIs กับเอนไซม์ CYP2C19**
+FDA Drug Safety Communication (August 24, 2011): Abnormal heart rhythms associated with high doses of Celexa (citalopram hydrobromide).
 
-ยาลดการหลั่งกรดในกระเพาะอาหารกลุ่ม Proton Pump Inhibitors (PPIs) เป็น Active Drugs ที่ถูกทำลายและขับออกผ่านทาง CYP2C19 เป็นหลัก
+CPIC Guideline for CYP2D6 and CYP2C19 Genotypes and Selective Serotonin Reuptake Inhibitor Dosing (Hicks et al., Clinical Pharmacology & Therapeutics).
 
-- ยาสำคัญ: Omeprazole (โอเมพราโซล), Lansoprazole, Pantoprazole
+3. กลุ่มยาลดกรด PPIs (Proton Pump Inhibitors)
+ยาลดกรดกลุ่ม PPIs (เช่น Omeprazole, Lansoprazole, Pantoprazole) เป็นยาพื้นฐานที่ใช้กันแพร่หลายในโรคแผลในกระเพาะอาหารและกรดไหลย้อน (GERD)
 
-- กลไกทางเภสัชพันธุศาสตร์:
+เอนไซม์หลักที่เกี่ยวข้อง: CYP2C19 (ทางหลัก รับผิดชอบการสลายยามากกว่า 80%), CYP3A4 (ทางสำรอง)
 
-ยาในกลุ่มนี้จะออกฤทธิ์ได้ดีและนาน ตราบใดที่ตัวยายังคงลอยอยู่ในกระแสเลือดเพื่อไปยับยั้งตัวปั๊มกรดในกระเพาะอาหาร
+กลไกทางเภสัชวิทยา: ยา PPIs ถูกจ่ายในรูปแบบ "ออกฤทธิ์ทันที (Active Drug)" และอาศัย CYP2C19 ในการทำลายยาเช่นเดียวกับ SSRIs แต่กลุ่มยานี้มีลักษณะพิเศษทางคลินิกที่ความบกพร่องของยีนสามารถนำมาใช้เป็นประโยชน์ในการรักษาได้
 
-- ผลกระทบตามฟีโนไทป์ (Phenotypes):
+ผลกระทบแยกตามฟีโนไทป์:
 
-Poor Metabolizers (PM): ในกรณีของยาลดกรด การเป็น PM (เอนไซม์บกพร่อง) กลับเป็น "ข้อดีในทางคลินิก" เพราะตับทำลายยาช้า ยาจึงอยู่ในเลือดนานขึ้น ส่งผลให้ ยาสามารถคุมกรดในกระเพาะได้ยาวนานและรักษาแผลในกระเพาะ/โรคกรดไหลย้อนได้หายเร็วกว่าคนปกติ (ซึ่งคนไทยและคนเอเชียโชคดีที่อยู่ในกลุ่มนี้เยอะประมาณ 30-40%)
+กลุ่ม Poor Metabolizer (PM): ยีนบกพร่องทำให้สลายยาลดกรดไม่ได้ ยาจึงหมุนเวียนอยู่ในร่างกายยาวนานขึ้น ส่งผลให้กระเพาะอาหารมีความเป็นกรดต่ำ (pH สูง) ได้ยาวนานกว่าปกติ ในแง่การรักษาโรคแผลในกระเพาะรุนแรง หรือการฆ่าเชื้อ H. pylori "ผู้ป่วยกลุ่ม PM จะมีอัตราการหายจากโรคสูงที่สุดอย่างมีนัยสำคัญ" (แต่ต้องระวังผลเสียระยะยาวหากกินต่อเนื่อง เช่น กระดูกพรุน หรือแมกนีเซียมในเลือดต่ำ)
 
-Ultra-rapid/Rapid Metabolizers (UM/RM): เอนไซม์ทำลายยาลดกรดทิ้งอย่างรวดเร็ว (พบบ่อยในคนยุโรป) ทำให้กินยาโอเมพราโซลแล้ว "กรดไม่ลด แผลไม่หาย" คนไข้กลุ่มนี้จำเป็นต้องได้รับการ เพิ่มขนาดยาขึ้นเป็น 2-3 เท่า หรือเปลี่ยนไปใช้ยา Rabeprazole ซึ่งพึ่งพา CYP2C19 น้อยกว่าแทน
+กลุ่ม Ultrarapid Metabolizer (UM): ร่างกายสลายยาลดกรดทิ้งเร็วเกินไป กรดในกระเพาะจึงไม่ลดลง นำไปสู่ภาวะ "โรคกรดไหลย้อนดื้อยา (Refractory GERD) หรือแผลในกระเพาะไม่ยอมหาย"
+
+แนวทางจัดการความปลอดภัย: แนวทางเวชปฏิบัติของ CPIC แนะนำให้แพทย์ "เพิ่มขนาดยาพุ่งสูงขึ้น 50% - 100%" ในผู้ป่วยกลุ่ม UM หรือปรับเปลี่ยนไปใช้ยา Rabeprazole แทน เนื่องจากยาตัวนี้ถูกขับออกผ่านกระบวนการที่ไม่ได้ใช้เอนไซม์ (Non-enzymatic pathway) เป็นหลัก จึงปลอดภัยจากความผันผวนทางพันธุกรรมของ CYP2C19
+
+📚 แหล่งอ้างอิงมาตรฐาน:
+
+CPIC Guideline for CYP2C19 and Proton Pump Inhibitor Dosing (Lima et al., Clinical Pharmacology & Therapeutics).
+
+U.S. Food & Drug Administration (FDA): PRILOSEC (omeprazole) clinical pharmacology label insights.
+
+## Tools: Advanced PharmVar queries. Identify ultra-rare alleles vs. common variants.
+
+🧬 1. อัลลีล "Star" ทั่วไป (Core Star Alleles หรือ Sequence Variants)
+ตามนิยามของ PharmVar อัลลีลกลุ่มนี้คือ "ยีนที่มีความยาวปกติและจำนวนชุด (Copy Number) เท่ากับคนปกติ แต่อักษรหรือลำดับเบสภายในสาย DNA เกิดความผิดปกติ" * กลไกทางพันธุศาสตร์: เกิดจากปฏิกิริยา SNV (Single Nucleotide Variant) หรือความแปรปรวนระดับเบสเดี่ยว รวมถึงการขาดหายหรือเพิ่มขึ้นของเบสขนาดเล็กมาก (Small Indels) ภายในบริเวณ Exon หรือ Intron ของยีน
+
+ตัวอย่างสำคัญตามฐานข้อมูล PharmVar:
+
+CYP2D6*2 (Normal Function): มีการเปลี่ยนแปลงของลำดับเบสที่ส่งผลให้กรดอะมิโนเปลี่ยนตำแหน่ง (เช่น 2850C>T) แต่โครงสร้างโดยรวมยังทำงานได้ดีเท่าคนปกติ
+
+CYP2D6*10 (Decreased Function): เกิดจากเบสเปลี่ยนจุดเดียว (100C>T) ทำให้โปรตีนที่สร้างขึ้นมาไม่เสถียรและทำงานลดลงอย่างมาก (เป็นอัลลีลที่พบบ่อยที่สุดในประชากรไทยและเอเชีย)
+
+CYP2D6*4 (No Function): เกิดการเปลี่ยนเบสตรงบริเวณรอยต่อในการตัดแต่งยีน (1846G>A) ส่งผลให้กระบวนการ Splicing ล้มเหลว เอนไซม์ที่สร้างขึ้นมาจึงใช้งานไม่ได้เลย
+
+🧬 2. ตัวแปรโครงสร้างที่หายากมาก (Structural Variants - SVs)
+นี่คือกลุ่มที่เป็นความท้าทายสูงสุดในระบบของ PharmVar เพราะโครงสร้างของยีนเปลี่ยนไปในระดับมหภาค (Large-scale Genomic Alterations) ไม่ใช่แค่เบสเปลี่ยนจุดเดียว ยีนอาจจะยาวไม่เท่าเดิม หรือมีจำนวนซ้ำที่ไม่ปกติ (Copy Number Variation - CNV) ซึ่ง PharmVar จัดหมวดหมู่ไว้ 3 รูปแบบหลัก:
+
+A. การขาดหายไปของยีนทั้งชุด (Whole-Gene Deletion)
+รหัสประจำตัวมาตรฐาน: CYP2D6*5
+
+กลไก: เกิดจากความผิดพลาดขณะแบ่งเซลล์ (Homologous Recombination) ทำให้ยีน CYP2D6 หลุดหายไปทั้งยีนจากโครโมโซมเส้นนั้น เหลือทิ้งไว้เพียงยีนหลอก (Pseudogenes) อย่าง CYP2D7 และ CYP2D8 ที่อยู่ข้างเคียงเท่านั้น
+
+ผลกระทบ: ร่างกายไม่สามารถผลิตเอนไซม์ CYP2D6 จากโครโมโซมข้างนั้นได้เลย (No Function)
+
+B. การเพิ่มจำนวนชุดยีน (Gene Duplication / Multiplication)
+รหัสประจำตัวมาตรฐาน: จะเขียนระบุตัวเลขจำนวนชุดต่อท้ายด้วย xN (เช่น *1x2, *2x2, *4x2)
+
+กลไก: มีการสำเนายีนซ้ำขึ้นมาลอยอยู่บนโครโมโซมเส้นเดียวกัน ทำให้คนไข้หนึ่งคนมียีนตัวนี้ 2 ชุด, 3 ชุด หรือมากกว่านั้นในโครโมโซมข้างเดียว
+
+ผลกระทบวิกฤต: * หากยีนที่ซ้ำเป็นยีนปกติ (เช่น *1x2 หรือ *2x2) ตับจะผลิตเอนไซม์ออกมาปริมาณมหาศาล กลายเป็นฟีโนไทป์ Ultrarapid Metabolizer (UM) เสี่ยงพิษเฉียบพลันจากยา Prodrug เช่น Codeine
+
+หากยีนที่ซ้ำเป็นยีนที่ไม่ทำงานอยู่แล้ว (เช่น *4x2) แม้จะมีหลายชุดในโครโมโซม ร่างกายก็ยังคงสลายยาไม่ได้เช่นเดิม (No Function)
+
+C. ยีนลูกผสม / ไฮบริด (Hybrid / Chimeric Genes)
+รหัสประจำตัวมาตรฐาน: เช่น CYP2D6*36, CYP2D6*13 หรือโครงสร้างซับซ้อนอย่าง CYP2D6*36-*10
+
+กลไก: เนื่องจากยีนจริง CYP2D6 วางตัวอยู่ใกล้กับยีนหลอก CYP2D7 ซึ่งมีลำดับเบสคล้ายกันมาก โครโมโซมจึงเกิดการสลับชิ้นส่วนแบบไขว้ข้าม (Unequal Crossover) เอาชิ้นส่วนท่อนหัวของยีนหนึ่งมาต่อกับท่อนหางของอีกยีนหนึ่ง
+
+ผลกระทบ: โครงสร้างที่ผิดรูปนี้มักส่งผลให้เอนไซม์สูญเสียการทำงาน (No Function) เช่น CYP2D6*36 ที่รับชิ้นส่วน Exon 9 มาจากยีนหลอกทำให้เอนไซม์ไม่ทำงาน
+
+## Simulation: Mock patient cases: Opioid metabolism in Ultra-rapid vs. Poor metabolizers.
