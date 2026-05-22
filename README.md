@@ -1,3 +1,5 @@
+<img width="1024" height="559" alt="metabolism" src="https://github.com/user-attachments/assets/58d292e7-b5d9-4402-8f99-1b29092deaf7" />
+<img width="1024" height="559" alt="metabolism" src="https://github.com/user-attachments/assets/27137696-5ac1-4b83-bd2b-08fed40926e5" />
 # Pharmacogenetics #
 ## Theory: Study the Central Dogma, PK/PD, and molecular structure of CYP enzymes. ##
 เรื่อง Central Dogma, PK/PD และ CYP enzymes เป็นพื้นฐานสำคัญที่เชื่อมโยงระหว่างชีววิทยาโมเลกุลเข้ากับการตอบสนองต่อยาในร่างกาย
@@ -225,6 +227,7 @@ Fentanyl,
 >> แหล่งอ้างอิง: PharmVar (pharmvar.org) | CPIC Guidelines (cpicpgx.org) | PharmGKB (pharmgkb.org) | DPWG (knmp.nl) 
 
 ## Defense: Blank page test. Draw metabolic pathways and the Big 5 enzymes from memory.
+<img width="1024" height="559" alt="metabolism" src="https://github.com/user-attachments/assets/fc8c52bd-b39e-4084-8e8a-774e61c4fc46" />
 
 ## Theory: Deep dive into Star Allele nomenclature and translation to phenotypes.
 ## Diplotype and Activity Score⭐
