@@ -133,7 +133,8 @@ Pharmacodynamics คือการศึกษาผลทางชีววิ
 | **10** | Active Drug |Phenytoin  | ยาต้านอาการชัก  |CYP2C9 (และ CYP2C19)  | ออกฤทธิ์ได้ทันที แต่อาศัยเอนไซม์เหล่านี้ในการสลาย |
 
 ## Project: Draft CYP2D6 and CYP2C19 sections of the "Big 5" Cheat Sheet.
-![Uploading image.jpeg…]()
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/4dc00486-4858-4a65-80e0-0d8323d3bb83" />
+
 
 ## เอกสารอ้างอิงทางคลินิก: CYP Enzymes
 ### **CYP2D6**
