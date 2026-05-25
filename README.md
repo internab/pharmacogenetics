@@ -1,3 +1,5 @@
+<img width="1920" height="1080" alt="Phenotype (2)" src="https://github.com/user-attachments/assets/91df991f-f135-4079-8553-b50276274a3b" />
+<img width="1920" height="1080" alt="Phenotype (2)" src="https://github.com/user-attachments/assets/766ea3d1-85d0-4cb2-b521-294f2bc8cba5" />
 # Pharmacogenetics #
 ## Theory: Study the Central Dogma, PK/PD, and molecular structure of CYP enzymes. ##
 เรื่อง Central Dogma, PK/PD และ CYP enzymes เป็นพื้นฐานสำคัญที่เชื่อมโยงระหว่างชีววิทยาโมเลกุลเข้ากับการตอบสนองต่อยาในร่างกาย
@@ -657,7 +659,7 @@ https://www.pharmvar.org/gene-support/Variation_CYP2D6.pdf
 
 ## Project: Format the Cheat Sheet for rapid clinical reading (15-second scan rule).
 
-<img width="1920" height="1080" alt="Phenotype (1)" src="https://github.com/user-attachments/assets/e8617a71-ac0c-4f59-a15a-ef7eea535880" />
+<img width="1920" height="1080" alt="Phenotype (2)" src="https://github.com/user-attachments/assets/9b5a2326-5dcf-404f-9b93-81c4fbe8e9d6" />
 
 
 > แหล่งข้อมูล: CPIC · PharmGKB · PharmVar · gnomAD · Sukasem et al. 2021 (Thai, n=1,205) · 1000 Genomes Phase 3 · Sci Rep 2024 (Thai WGS)
