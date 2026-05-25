@@ -1,6 +1,3 @@
-<img width="1920" height="1080" alt="Phenotype (2)" src="https://github.com/user-attachments/assets/91df991f-f135-4079-8553-b50276274a3b" />
-<img width="1920" height="1080" alt="Phenotype (2)" src="https://github.com/user-attachments/assets/766ea3d1-85d0-4cb2-b521-294f2bc8cba5" />
-# Pharmacogenetics #
 ## Theory: Study the Central Dogma, PK/PD, and molecular structure of CYP enzymes. ##
 เรื่อง Central Dogma, PK/PD และ CYP enzymes เป็นพื้นฐานสำคัญที่เชื่อมโยงระหว่างชีววิทยาโมเลกุลเข้ากับการตอบสนองต่อยาในร่างกาย
 ## Central Dogma คืออะไร ##
