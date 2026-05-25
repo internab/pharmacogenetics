@@ -654,3 +654,10 @@ https://www.pharmvar.org/gene-support/Variation_CYP2D6.pdf
 คลังข้อมูลดิจิทัลและรหัสพันธุกรรม:
 
 > ข้อมูลรหัสโครงสร้างตัวแปรยีนซ้ำชุด (xN) อ้างอิงมาตรฐานจาก PharmVar (Pharmacogene Variation Consortium) ในหัวข้อ CYP2D6 Gene Structural Variants Table และระบบฐานข้อมูลกลาง ClinPGx (clinpgx.org)
+
+## Project: Format the Cheat Sheet for rapid clinical reading (15-second scan rule).
+<img width="1920" height="1080" alt="Phenotype" src="https://github.com/user-attachments/assets/23f4350c-c3d4-454f-bf04-9e262019850f" />
+
+> แหล่งข้อมูล: CPIC · PharmGKB · PharmVar · gnomAD · Sukasem et al. 2021 (Thai, n=1,205) · 1000 Genomes Phase 3 · Sci Rep 2024 (Thai WGS)
+เพื่อการศึกษาทางคลินิกเท่านั้น — ไม่ใช่แนวทางการรักษา ควรใช้ร่วมกับดุลยพินิจทางคลินิก | พ.ค. 2569
+
