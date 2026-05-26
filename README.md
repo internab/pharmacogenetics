@@ -1,3 +1,4 @@
+<img width="1920" height="615" alt="Phenotype (4)" src="https://github.com/user-attachments/assets/739aa6d5-a6e1-496c-85a6-71493aae0ac7" />
 ## Theory: Study the Central Dogma, PK/PD, and molecular structure of CYP enzymes. ##
 เรื่อง Central Dogma, PK/PD และ CYP enzymes เป็นพื้นฐานสำคัญที่เชื่อมโยงระหว่างชีววิทยาโมเลกุลเข้ากับการตอบสนองต่อยาในร่างกาย
 ## Central Dogma คืออะไร ##
@@ -664,3 +665,8 @@ https://www.pharmvar.org/gene-support/Variation_CYP2D6.pdf
 
 ## Defense: Verbally defend the metabolic mechanisms of your top 5 substrate drugs.
 <img width="1920" height="552" alt="Phenotype (3)" src="https://github.com/user-attachments/assets/9c845aab-76f9-4ae6-bdeb-f5b1ccc117f6" />
+
+
+
+<img width="1920" height="615" alt="Phenotype (4)" src="https://github.com/user-attachments/assets/1c695d3c-eaf8-4cde-9b8b-3ab970c974f4" />
+
