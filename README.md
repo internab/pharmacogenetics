@@ -663,4 +663,4 @@ https://www.pharmvar.org/gene-support/Variation_CYP2D6.pdf
 เพื่อการศึกษาทางคลินิกเท่านั้น — ไม่ใช่แนวทางการรักษา ควรใช้ร่วมกับดุลยพินิจทางคลินิก | พ.ค. 2569
 
 ## Defense: Verbally defend the metabolic mechanisms of your top 5 substrate drugs.
-<img width="1920" height="1080" alt="Phenotype (3)" src="https://github.com/user-attachments/assets/f27a4ca2-6cf0-458c-ae85-f3f2857d9eb6" />
+<img width="1920" height="552" alt="Phenotype (3)" src="https://github.com/user-attachments/assets/9c845aab-76f9-4ae6-bdeb-f5b1ccc117f6" />
