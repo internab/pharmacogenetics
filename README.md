@@ -669,3 +669,5 @@ https://www.pharmvar.org/gene-support/Variation_CYP2D6.pdf
 
 <img width="1920" height="615" alt="Phenotype (4)" src="https://github.com/user-attachments/assets/1c695d3c-eaf8-4cde-9b8b-3ab970c974f4" />
 
+
+<img width="1920" height="611" alt="Phenotype (6)" src="https://github.com/user-attachments/assets/60af4436-64b6-460d-8c1b-6a4fc4b17556" />
