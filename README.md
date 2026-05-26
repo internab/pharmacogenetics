@@ -662,3 +662,5 @@ https://www.pharmvar.org/gene-support/Variation_CYP2D6.pdf
 > แหล่งข้อมูล: CPIC · PharmGKB · PharmVar · gnomAD · Sukasem et al. 2021 (Thai, n=1,205) · 1000 Genomes Phase 3 · Sci Rep 2024 (Thai WGS)
 เพื่อการศึกษาทางคลินิกเท่านั้น — ไม่ใช่แนวทางการรักษา ควรใช้ร่วมกับดุลยพินิจทางคลินิก | พ.ค. 2569
 
+## Defense: Verbally defend the metabolic mechanisms of your top 5 substrate drugs.
+<img width="1920" height="1080" alt="Phenotype (3)" src="https://github.com/user-attachments/assets/f27a4ca2-6cf0-458c-ae85-f3f2857d9eb6" />
