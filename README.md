@@ -169,8 +169,8 @@ Venlafaxine,
 > *3 (ไม่ทำงาน ~เอเชีย)
 > *17 (เพิ่ม ~ผิวขาว)
 - Activity Score
-> *1 = 1.0  |  *2 = 0.5 | 
-> *3 = 0.0 | *17 = 1.5
+> *1 = 1.0   
+> *2,*3 = 0.0 | *17 = 1.5
 - Substrates หลัก (≥5 ชนิด)
 >Clopidogrel (prodrug),
 Omeprazole,
