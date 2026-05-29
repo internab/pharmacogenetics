@@ -663,6 +663,8 @@ https://www.pharmvar.org/gene-support/Variation_CYP2D6.pdf
 เพื่อการศึกษาทางคลินิกเท่านั้น — ไม่ใช่แนวทางการรักษา ควรใช้ร่วมกับดุลยพินิจทางคลินิก | พ.ค. 2569
 
 ## Defense: Verbally defend the metabolic mechanisms of your top 5 substrate drugs.
+
+
 <img width="1920" height="552" alt="Phenotype (3)" src="https://github.com/user-attachments/assets/9c845aab-76f9-4ae6-bdeb-f5b1ccc117f6" />
 
 
@@ -678,3 +680,54 @@ https://www.pharmvar.org/gene-support/Variation_CYP2D6.pdf
 
 <img width="1920" height="1080" alt="Phenotype (8)" src="https://github.com/user-attachments/assets/9f1abcf5-c30e-4a8e-b94e-e6df6529324d" />
 
+## Theory: Review Month 1 Biochemistry. Connect physical enzyme shape to clinical action.
+
+การเชื่อมโยงโครงสร้างกายภาพสามมิติ (3D Structural Conformation) ของกลุ่มเอนไซม์ Cytochrome P450 (CYP) เข้ากับอาการทางคลินิก (Clinical Phenotypes) เป็นการประยุกต์ใช้ความรู้ชีวเคมีพื้นฐาน (Active Site, Substrate 
+
+Binding, และ Protein Folding) เพื่ออธิบายความแตกต่างในการตอบสนองต่อยาของแต่ละบุคคล (Pharmacogenomics)ความผิดพลาดทางโครงสร้างเพียงเล็กน้อยในช่องเร่งปฏิกิริยา (Active Site Pocket) และการม้วนพับของกลุ่มเอนไซม์ 
+
+CYP2D6, CYP2C19, CYP2C9, CYP3A4, และ CYP3A5 ส่งผลต่ออาการทางคลินิกอย่างเด่นชัด ดังนี้
+
+### **1. CYP2D6 กับ ความจุของ active site (Active Site Cavity Volume)**
+
+  -  **กลไกกายภาพ**: CYP2D6 มีโครงสร้าง Active site ที่ค่อนข้างยืดหยุ่นสูง (Conformational Diversity) มีกรดอะมิโนที่มีประจุลบเช่น Aspartate (Asp301) คอยทำหน้าที่จับกับยากลุ่มที่เป็นเบส (Lipophilic bases)
+   
+  - **การเปลี่ยนแปลงโครงสร้าง**: การเกิด Single Nucleotide Polymorphism (SNP) เช่น ในอัลลีล CYP2D6*4 ทำให้เกิดการตัดต่อ RNA ผิดพลาด ส่งผลให้ เอนไซม์ม้วนพับไม่ได้ (Mis-folded protein) และถูกทำลายทิ้งทันที 
+   
+   ขณะที่บางคนเกิดการเพิ่มจำนวนยีน (Copy Number Variation - CNV) ทำให้มีปริมาณเอนไซม์สามมิติที่สมบูรณ์ทำงานมากเกินไป
+   
+  - อาการทางคลินิก (Clinical Phenotypes)**: **Poor Metabolizer (PM)**: ไม่สามารถเปลี่ยนรูปยา Codeine (Prodrug) ให้กลายเป็น Morphine ได้ ทำให้ยาไม่ได้ผล (Lack of Analgesia) หรือเกิดพิษจากยาต้านเศร้ากลุ่ม TCA สะสมจนเกิดหัวใจเต้นผิดจังหวะ
+   
+   **Ultra-rapid Metabolizer (UM)**: เปลี่ยน Codeine เป็น Morphine เร็วและมากเกินไปจนเกิดภาวะ หายใจกดขี่เฉียบพลัน (Respiratory Depression) และอาจเสียชีวิตได้
+
+   2. CYP2C19 กับ การเปิด-ปิดของช่องทางเข้าสารตั้งต้น (Substrate Access Channel)
+      
+      กลไกกายภาพ: CYP2C19 มีช่องทางเข้าขนาดเล็กที่จำเพาะเจาะจงสูงกับโมเลกุลยาบางประเภท
+      
+      การเปลี่ยนแปลงโครงสร้าง: อัลลีล CYP2C19*2 เกิดการกลายพันธุ์ที่ทำให้เกิดรหัสหยุดก่อนกำหนด (Splicing defect) ส่งผลให้โครงสร้างสามมิติขาดหายไปครึ่งหนึ่งและสูญเสียฟังก์ชันโดยสิ้นเชิง ในทางกลับกัน CYP2C19*17 มีการเพิ่มการแสดงออกของยีน ทำให้ช่องเร่งปฏิกิริยาเปิดรับสารได้มากกว่าปกติ
+      
+      อาการทางคลินิก (Clinical Phenotypes):ในผู้ป่วยโรคหัวใจที่ได้รับยา Clopidogrel: ยานี้เป็น Prodrug ต้องใช้ CYP2C19 ในการเปิดวงแหวนให้กลายเป็น Active form เพื่อต้านเกล็ดเลือด
+      
+      หากผู้ป่วยมีโครงสร้างเอนไซม์แบบ *2/*2 (Poor Metabolizer) จะไม่สามารถกระตุ้นยาได้ ส่งผลให้เกิด ภาวะลิ่มเลือดอุดตันในหลอดเลือดหัวใจซ้ำ (Stent Thrombosis / Myocardial Infarction)
+      
+      Ultra-rapid Metabolizer (*17): สลายยาขับปัสสาวะหรือยากลุ่ม PPIs (ยาลดกรด) เร็วเกินไป ทำให้ การรักษาแผลในกระเพาะอาหารล้มเหลว (Therapeutic Failure)
+      
+      3. CYP2C9 กับ แรงผลักทางประจุไฟฟ้า (Steric & Electrostatic Hindrance)
+         
+         กลไกกายภาพ: ช่อง Active site ของ CYP2C9 มีกรดอะมิโน Arg108 (ประจุบวก) คอยดึงดูดหมู่คาร์บอกซิล (ประจุลบ) ของสารตั้งต้นที่เป็นกรดอ่อน เช่น ยาละลายลิ่มเลือด Warfarin หรือยาแก้ปวด NSAIDs
+         
+         การเปลี่ยนแปลงโครงสร้าง: อัลลีล CYP2C9*2 (Arg144Cys) และ CYP2C9*3 (Ile359Leu) ทำให้กรดอะมิโนบริเวณรอบๆ และภายในช่องเร่งเปลี่ยนไป ส่งผลให้ความสามารถในการจับ (Binding Affinity) และความเร็วในการเร่งปฏิกิริยา (\(K_{cat}/K_m\)) ลดลงอย่างรุนแรง
+
+         อาการทางคลินิก (Clinical Phenotypes):ผู้ป่วยที่มีโครงสร้างบกพร่องนี้ จะไม่สามารถกำจัดยา Warfarin ออกจากร่างกายได้ตามปกติ ยาจะสะสมในกระแสเลือดเกินขนาดขีดอันตราย ส่งผลให้มี อาการเลือดออกไม่หยุด (Severe Bleeding / Hemorrhage) แพทย์จึงต้องปรับลดโดสยาลงอย่างมาก
+
+         4. CYP3A4 และ CYP3A5 กับ พื้นที่ผิวและการซ้อนทับของยีน (Large Active Site Cavity)
+          
+            กลไกกายภาพ: CYP3A4 เป็นเอนไซม์ที่มี Active Site Cavity ขนาดใหญ่ที่สุด ในบรรดา CYP ทั้งหมด ทำให้มันสามารถทำปฏิกิริยากับยาได้หลากหลายชนิดพร้อมกัน (Broad Substrate Specificity) และเกิดปรากฏการณ์จับสารตั้งต้นพร้อมกันสองโมลกุลได้ (Cooperativity)
+            
+            การเปลี่ยนแปลงโครงสร้าง: สำหรับ CYP3A5 คนส่วนใหญ่ในเอเชียและยุโรปมักมีอัลลีล CYP3A5*3 ซึ่งทำให้เกิดการตัดแต่งยีนผิดพลาดและสร้างโปรตีนที่สั้นกว่าปกติ (Truncated Non-functional Protein) มีเพียงบางกลุ่มประชากรที่มีเอนไซม์สามมิติของ CYP3A5 ที่สมบูรณ์ทำงานควบคู่กับ CYP3A4
+
+            อาการทางคลินิก (Clinical Phenotypes):Drug-Drug Interactions (DDI): เนื่องจากช่องเร่งของ CYP3A4 มีขนาดใหญ่และรับยาได้หลายตัว หากกินยาฆ่าเชื้อกลุ่ม Macrolides (เช่น Erythromycin) ซึ่งไปแย่งจับและฟอร์มพันธะ
+            
+            โควาเลนต์บล็อกช่องเร่งของ CYP3A4 ไว้ (Mechanism-based Inhibition) จะทำให้ยาตัวอื่นที่ต้องใช้ช่องนี้สลายตัวไม่ได้ เช่น ยาลดไขมัน Statin ส่งผลให้เกิด ภาวะกล้ามเนื้อสลาย (Rhabdomyolysis) คลินิกทันทีการปลูกถ่ายอวัยวะ:
+
+            ผู้ป่วยที่ตรวจพบโครงสร้าง CYP3A5 ทำงานได้ดี (CYP3A5 Expresser) จะสลายยากดภูมิคุ้มกัน Tacrolimus เร็วมาก ทำให้เกิดภาวะ ร่างกายปฏิเสธอวัยวะใหม่ (Graft Rejection) เนื่องจากระดับยาในเลือดไม่ถึงเกณฑ์การรักษา
