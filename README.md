@@ -731,3 +731,11 @@ CYP2D6, CYP2C19, CYP2C9, CYP3A4, และ CYP3A5 ส่งผลต่ออา
             โควาเลนต์บล็อกช่องเร่งของ CYP3A4 ไว้ (Mechanism-based Inhibition) จะทำให้ยาตัวอื่นที่ต้องใช้ช่องนี้สลายตัวไม่ได้ เช่น ยาลดไขมัน Statin ส่งผลให้เกิด ภาวะกล้ามเนื้อสลาย (Rhabdomyolysis) คลินิกทันทีการปลูกถ่ายอวัยวะ:
 
             ผู้ป่วยที่ตรวจพบโครงสร้าง CYP3A5 ทำงานได้ดี (CYP3A5 Expresser) จะสลายยากดภูมิคุ้มกัน Tacrolimus เร็วมาก ทำให้เกิดภาวะ ร่างกายปฏิเสธอวัยวะใหม่ (Graft Rejection) เนื่องจากระดับยาในเลือดไม่ถึงเกณฑ์การรักษา
+
+
+ ## Project: Finalize and polish the "Big 5" Clinical Cheat Sheet.
+<img width="2000" height="1414" alt="3" src="https://github.com/user-attachments/assets/3f6794ca-9969-4013-9b9e-3ad71f4ae5b0" />
+
+<img width="2000" height="1414" alt="4" src="https://github.com/user-attachments/assets/16104be8-ae6e-41b2-98b7-7e282449d4e2" />
+
+
