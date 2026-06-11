@@ -822,9 +822,10 @@ PharmGKB ทำหน้าที่เป็น ฐานข้อมูล ท
 
 
  ## Project: Finalize and polish the "Big 5" Clinical Cheat Sheet.
-<img width="2000" height="1414" alt="3" src="https://github.com/user-attachments/assets/3f6794ca-9969-4013-9b9e-3ad71f4ae5b0" />
+ 
+<img width="2000" height="1296" alt="1" src="https://github.com/user-attachments/assets/4c75dbc8-2ec6-4866-a3fb-548da957ab4b" />
 
-<img width="2000" height="1414" alt="4" src="https://github.com/user-attachments/assets/16104be8-ae6e-41b2-98b7-7e282449d4e2" />
+<img width="2000" height="1026" alt="2" src="https://github.com/user-attachments/assets/d82a6271-8c01-4006-bc3b-f9e66fbf587c" />
 
 ## Theory: Deconstruct CPIC methodology. Learn Level A vs. Level C evidence.
 
