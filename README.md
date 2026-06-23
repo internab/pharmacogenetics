@@ -863,6 +863,7 @@ PharmGKB ทำหน้าที่เป็น ฐานข้อมูล ท
 
   **อ้างอิง (Reference)**
 > Alcorn J, and McNamara PJ. Ontogeny of drug metabolizing enzymes in the neonate. J Clin Pharmacol. 2002. / van Groen BD, et al.
+
 > The Impact of Pharmacogenetics on Pharmacokinetics and Pharmacodynamics in Neonates and Infants. Front Pharmacol. 2022.
 
  ## Project: Finalize and polish the "Big 5" Clinical Cheat Sheet
