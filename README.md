@@ -818,10 +818,54 @@ PharmGKB ทำหน้าที่เป็น ฐานข้อมูล ท
 * PharmGKB. (n.d.). *Clinical Annotation for CYP2C19\*2, CYP2C19\*3; Clopidogrel*. Retrieved from https://www.pharmgkb.org/
 * Stone, G. W., Bhatt, D. L., Medeiros, M., Muratori, M., Angiolillo, D. J., Aradi, D., ... & TAILOR-PCI Investigators. (2020). Effect of genotype-guided oral P2Y12 inhibitor selection vs conventional clopidogrel therapy on ischemic outcomes after percutaneous coronary intervention: the TAILOR-PCI randomized clinical trial. *JAMA*, 324(8), 761-771. https://doi.org/10.1001/jama.2020.11343
 
+## Simulation: Complex pediatric vs. adult metabolic rates.
 
+'กระบวนการพัฒนาการของเอนไซม์ตามอายุ (enzyme Ontogeny) ทำให้ผลของรหัสพันธุกรรม (Genotype)ในทารกแรกเกิดและผู้ใหญ่แตกต่างกัน ในทารกแรกเกิดยีนบางตัวอาจ'เงียบ'(silent) หรือไม่มีผลทางคลินิกเลย เนื่องจากระบบเอนไซม์ที่ตับยังเติบโตไม่เต็มที่ แค่ยีนเดียวกันนี้จะส่งผลรุนแรงเมื่อเติบโตเป้นผู้ใหญ่'
 
+การเข้าใจความเปลี่ยนแปลงนี้มีความสำคัญมากต่อการคำนวณขนาดยาในเวชศาสตร์ทารกแรกเกิด
+**Enzyme Ontogeny**: พัฒนาการของเอนไซม์ตามช่วงอายุ
+  เอนไซม์ในตับที่ใช้ทำลายยา โดยเฉพาะกลุ่ม Cytochrome P450 (CYP) มีกำหนดเวลาในการพัฒนา (Maturation profile) ที่ไม่พร้อมกัน ดังนี้:
 
- ## Project: Finalize and polish the "Big 5" Clinical Cheat Sheet.
+- CYP3A7: มีฤทธิ์สูงมากในทารกในครรภ์ แต่จะลดลงอย่างรวดเร็วหลังคลอด
+
+- CYP2D6 / CYP2C9: ตอนคลอดแทบไม่มีฤทธิ์เลย แต่จะค่อย ๆ เพิ่มขึ้นภายในไม่กี่สัปดาห์หลังคลอด และใช้เวลา 1–3 ปีกว่าจะมีระดับเท่าผู้ใหญ่
+
+- CYP1A2: พัฒนาช้าที่สุด มักเริ่มทำงานหลังคลอดไปแล้วหลายเดือน และใช้เวลามากกว่า 1 ปีกว่าจะสมบูรณ์
+
+  ตารางเปรียบเทียบ: ผลกระทบของ Genotype ใน Neonate vs. Adult
+
+  | ปัจจัยเปรียบเทียบ|	ทารกแรกเกิด (Neonate) |	ผู้ใหญ่ (Adult) |
+  | :-- | :-- | :-- |
+  | ระดับเอนไซม์พื้นฐาน |	ต่ำมาก (อยู่ในช่วงกำลังพัฒนา) |	สูงและคงที่ (โตเต็มที่แล้ว)|
+  | การแสดงออกของ Genotype	| แสดงออกไม่เต็มที่เพราะความอ่อนเยาว์ของตับ	| แสดงออกเต็มที่ ตามรหัสพันธุกรรม |
+  | สภาพฟีโนไทป์ตามธรรมชาติ	| เสมือนเป็น Poor Metabolizer โดยธรรมชาติ	| เป็นไปตามยีน (Poor, Intermediate, Extensive, Ultra-rapid)|
+  | หลักการคำนวณโดสยา	| อิงตามอายุครรภ์, อายุหลังคลอด และน้ำหนักตัว	| อิงตามจีโนไทป์ และการทำงานของตับ/ไต|
+
+**กรณีศึกษาเปรียบเทียบผ่านตัวยา**
+
+กรณีที่ 1: ยา Codeine (ผ่านเอนไซม์ CYP2D6)
+ยา Codeine เป็น Prodrug ที่ต้องอาศัยเอนไซม์ CYP2D6 ในการเปลี่ยนให้เป็น Morphine เพื่อออกฤทธิ์แก้ปวด
+
+- ในผู้ใหญ่ที่เป็น Ultra-rapid Metabolizer (UM): จีโนไทป์นี้มีตัวยีนที่ทำงานไวเกินไป ตับจะเปลี่ยน Codeine เป็น Morphine ปริมาณมหาศาลอย่างรวดเร็ว ส่งผลให้เกิดพิษ กดการหายใจ และอาจเสียชีวิตได้
+
+- ในทารกแรกเกิดที่เป็น Ultra-rapid Metabolizer (UM): แม้ทารกจะมีจีโนไทป์แบบ UM แต่เนื่องจากเอนไซม์ CYP2D6 ยังไม่พัฒนา (Ontogeny ต่ำ) ตับของทารกจึงยังไม่สามารถเปลี่ยน Codeine เป็น Morphine ได้มากนัก ผลกระทบจากยีน UM ในตัวทารกเองจึงอาจยังไม่รุนแรงเท่าผู้ใหญ่
+  > ข้อควรระวัง: หากแม่ที่มีจีโนไทป์แบบ UM กินยา Codeine ตัวแม่จะเปลี่ยนยาเป็น Morphine ปริมาณมากแล้วส่งผ่านน้ำนมไปให้ทารก ทารกจะได้รับ Morphine สายตรง ซึ่งเป็นอันตรายถึงชีวิตได้ เพราะระบบทำลายสารพิษขั้นต่อไป (UGT2B7) ของทารกก็ยังไม่พัฒนาเช่นกัน
+
+กรณีที่ 2: ยา Phenytoin (ผ่านเอนไซม์ CYP2C9)
+ยา Phenytoin เป็นยากันชักที่มีช่วงการรักษาแคบ หากสะสมมากจะเกิดพิษต่อระบบประสาท
+
+- ในผู้ใหญ่ที่เป็น Poor Metabolizer (PM): คนกลุ่มนี้ยีนบกพร่องทำให้สร้างเอนไซม์ CYP2C9 ได้น้อย ยาจะสะสมในร่างกายสูงมาก แพทย์ต้องลดโดสยาลงอย่างมากเพื่อป้องกันพิษ
+
+- ในทารกแรกเกิด: ไม่ว่าทารกคนนั้นจะมีจีโนไทป์แบบไหน (จะเป็นยีนที่ย่อยสลายไวหรือย่อยสลายช้า) ทารกทุกคนในช่วงสัปดาห์แรกจะมีสภาพเสมือนเป็น Poor Metabolizer โดยธรรมชาติ เพราะเอนไซม์ CYP2C9 ยังไม่ยอมทำงาน ดังนั้นผลตรวจจีโนไทป์ในวัยนี้จึงแทบไม่มีผลในการทำนายการขับยา แพทย์ต้องจ่ายยาในปริมาณที่ต่ำมากและเจาะวัดระดับยาในเลือดอย่างใกล้ชิด
+
+ ✅ สรุป
+ จีโนไทป์แบบเดียวกันจะส่งผลกระทบต่อทารกแรกเกิดน้อยกว่าหรือแตกต่างจากผู้ใหญ่ เนื่องจากเอนไซม์ตามธรรมชาติของทารกยังเจริญเติบโตไม่เต็มที่ (Low Enzyme Ontogeny) ทำให้การแสดงออกของยีนถูกจำกัดด้วยอายุทางชีวภาพ
+
+  **อ้างอิง (Reference)**
+> Alcorn J, and McNamara PJ. Ontogeny of drug metabolizing enzymes in the neonate. J Clin Pharmacol. 2002. / van Groen BD, et al.
+> The Impact of Pharmacogenetics on Pharmacokinetics and Pharmacodynamics in Neonates and Infants. Front Pharmacol. 2022.
+
+ ## Project: Finalize and polish the "Big 5" Clinical Cheat Sheet
  
 <img width="2000" height="1296" alt="1" src="https://github.com/user-attachments/assets/4c75dbc8-2ec6-4866-a3fb-548da957ab4b" />
 
@@ -858,3 +902,4 @@ PharmGKB ทำหน้าที่เป็น ฐานข้อมูล ท
 
 <img width="1024" height="768" alt="Green Brown Simple Project Management Decision Tree Graph" src="https://github.com/user-attachments/assets/f29b55de-78fb-4fb1-914b-15d9167bdf4b" />
 
+## Defense: Compare FDA Boxed Warnings for Clopidogrel against CPIC recommendations.
