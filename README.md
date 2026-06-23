@@ -904,3 +904,5 @@ PharmGKB ทำหน้าที่เป็น ฐานข้อมูล ท
 <img width="1024" height="768" alt="Green Brown Simple Project Management Decision Tree Graph" src="https://github.com/user-attachments/assets/f29b55de-78fb-4fb1-914b-15d9167bdf4b" />
 
 ## Defense: Compare FDA Boxed Warnings for Clopidogrel against CPIC recommendations.
+
+แนวทางปฏิบัติของ CPIC (Clinical Pharmacogenetics Implementation Consortium) ให้ข้อมูลทางคลินิกที่นำไปปฏิบัติจริง (Actionable Clinical Data) ได้มากกว่า FDA Boxed Warning อย่างชัดเจน เนื่องจาก FDA เน้นเพียงการเตือนความเสี่ยงในผู้ป่วยกลุ่ม Poor Metabolizers (PMs) เป็นหลัก ในขณะที่ CPIC ให้คำแนะนำที่ละเอียด แยกตามยีนเด่นยีนด้อย (Genotypes/Phenotypes) และครอบคลุมข้อบ่งชี้โรคอย่างเป็นรูปธรรม
