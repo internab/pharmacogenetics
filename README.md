@@ -950,3 +950,15 @@ PharmGKB ทำหน้าที่เป็น ฐานข้อมูล ท
 > U.S. Food and Drug Administration. (2022). Plavix (clopidogrel tablets) prescribing information. https://www.accessdata.fda.gov/drugsatfda_docs/label/2022/020839s078lbl.pdf
 
 > Lee, C. R., Luzum, J. A., Sangkuhl, K., Gammal, R. S., Sabatine, M. S., Stein, C. M., Kisor, D. F., Limdi, N. A., Lee, Y. M., Scott, S. A., Hulot, J.-S., Roden, D. M., Gaedigk, A., Caudle, K. E., Klein, T. E., Johnson, J. A., & Shuldiner, A. R. (2022). Clinical Pharmacogenetics Implementation Consortium Guideline for CYP2C19 Genotype and Clopidogrel Therapy: 2022 Update. Clinical Pharmacology & Therapeutics, 112(5), 959–967. https://doi.org/10.1002/cpt.2526
+
+## Theory: Deep dive into Psychiatry PGx (SSRIs, SNRIs).
+
+Drugs: selective serotonin reuptake inhibitors
+ยาต้านเศร้ากลุ่มยับยั้งการดูดซึมเซโรโทนิน (Serotonin reuptake inhibitor antidepressants) ซึ่งรวมถึงยากลุ่มยับยั้งการดูดซึมเซโรโทนินแบบเลือก (SSRIs; เช่น citalopram, escitalopram, fluoxetine, fluvoxamine, paroxetine และ sertraline), ยากลุ่มยับยั้งการดูดซึมเซโรโทนินและนอร์เอพิเนฟริน (SNRIs; เช่น desvenlafaxine, duloxetine, levomilnacipran, milnacipran และ venlafaxine) และยากลุ่มปรับเปลี่ยนเซโรโทนินที่มีคุณสมบัติคล้าย SSRI (เช่น vilazodone และ vortioxetine) เป็นยาหลักที่ใช้ในการรักษาโรคซึมเศร้า โรควิตกกังวล และโรคย้ำคิดย้ำทำกลไกการออกฤทธิ์ของยาเหล่านี้ส่วนใหญ่ขึ้นอยู่กับการยับยั้งการดูดซึมเซโรโทนินกลับโดยตัวขนส่งเซโรโทนิน (SERT) ซึ่งเชื่อว่าเป็นสาเหตุของผลต้านอาการซึมเศร้า อย่างไรก็ตาม ยาต้านอาการซึมเศร้าอาจนำไปสู่ผลข้างเคียง เช่น อาการกระสับกระส่าย ปวดศีรษะ อาการทางระบบทางเดินอาหาร เช่น อาเจียนหรือท้องเสีย และความเสี่ยงร้ายแรงทางหัวใจอย่างภาวะ QT Prolongation (คลื่นไฟฟ้าหัวใจผิดปกติ)ทั้งนี้ ความแปรผันทางพันธุกรรมในเอนไซม์ CYP2D6 และ CYP2C19 มีอิทธิพลอย่างมากต่อการเผาผลาญยาต้านเศร้าเหล่านี้หลายชนิด (โดยเฉพาะกลุ่ม SSRIs และ Venlafaxine) ซึ่งส่งผลโดยตรงต่อระดับยาในกระแสเลือด ขนาดยาที่เหมาะสม ประสิทธิภาพในการรักษา และความทนทานต่อผลข้างเคียงของผู้ป่วยแต่ละบุคคล"
+
+ คำแนะนำในการให้ยาต้านเศร้าตามลักษณะฟีโนไทป์ของ CYP2D6
+ 
+ | Phenotype |	Implication |	คำแนะนำในการรักษา |	การจัดประเภทคำแนะนำ |	ข้อควรพิจารณา |
+ | :--- | :--- | :--- | :--- | :--- |
+ | (ก) คำแนะนำในการให้ยา paroxetine โดยพิจารณาจากฟีโนไทป์ของ CYP2D6  |
+ | เอนไซม์ CYP2D6 เผาผลาญเร็วมาก |	การเผาผลาญพาร็อกเซทีนไปเป็นสารประกอบที่มีฤทธิ์น้อยลงนั้นเพิ่มขึ้นเมื่อเทียบกับผู้ที่มีการเผาผลาญ CYP2D6 ปกติ ความเข้มข้นใน
