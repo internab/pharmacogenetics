@@ -1073,3 +1073,7 @@ PharmGKB ทำหน้าที่เป็น ฐานข้อมูล ท
 > หากยา Escitalopram เหมาะสมทางคลินิก และไม่ได้ผลดีเพียงพอในขนาดยาบำรุงรักษามาตรฐาน ให้พิจารณาปรับขนาดยาบำรุงรักษาให้สูงขึ้น 
 
 > ควรพิจารณาปฏิกิริยาระหว่างยาและลักษณะเฉพาะอื่นๆ ของผู้ป่วย (เช่น อายุ การทำงานของไต การทำงานของตับ) เมื่อปรับขนาดยาหรือเลือกวิธีการรักษาอื่น
+
+## Project: Design the logic flow for the Psychiatry/SSRI decision tree.
+
+<img width="2245" height="1587" alt="Flowchart 1" src="https://github.com/user-attachments/assets/5e156641-4cf6-44e8-87db-c85e240a433c" />
